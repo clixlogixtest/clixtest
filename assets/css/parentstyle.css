@@ -1,0 +1,426 @@
+@charset "utf-8";
+
+
+.parenthome_header .navbar-header{min-width:auto;}
+.parenthome_wrap{height:auto;}
+.parenthome_wrap table tr td .btn-default{line-height:20px;height:auto;font-size:16px;min-width:100px;text-transform:capitalize;}
+.parenthome_foot .btn-default{line-height:20px;height:auto;font-size:14px;min-width:100px;text-transform:capitalize;}
+.parenthome_wrap .bookedstudent {font-size:16px;}
+.parenthome_foot{margin-bottom:30px;padding: 20px 0px;background: #f3f3f3;}
+
+.parenthome_foot textarea{font-weight:normal;font-size:14px;padding:7px;height:40px;max-height:40px;width:250px;max-width:250px;margin-left:20px;margin-right:20px;margin-bottom:-14px;
+ border-top: 0px;border-right: 0px;border-left: 0px;border-bottom: 1px solid #ccc;}
+ .parenthome_foot textarea:focus{border-bottom:2px solid #4768ba;}
+.parenthome_foot span{font-size:20px;}
+/* .parentmyproduct table thead tr th{display:block;}
+.parentmyproduct table tbody tr td{display:block;} */
+.invoice_totalremaining:first-child{margin-bottom:20px;}
+.invoice_totalremaining span{color:#4768ba;font-size:22px;margin-right:40px;}
+
+.parent_dashbord .dataTable thead .sorting_asc:after {display:none;}
+.grouplessons-wrapper .teachertab1 .fc-toolbar.fc-header-toolbar {margin-top: 30px;}
+
+.parentappcalendar .fc-time-grid .fc-event, .parentappcalendar .fc-time-grid .fc-bgevent {max-height: 100px;height:  100px;}
+.parentappcalendar .fc-time-grid-event .fc-content {height:  100px;max-height:  100px; }
+.parentappcalendar .fc-event .fc-bg {height:  auto;}
+
+.parentappcalendar .subject_app{font-size:14px;margin-bottom:0px;}
+
+.parentappcalendar .fc-event-container .start {width: 26px;border:1px solid transparent;}
+.parentappcalendar .fc-event-container .cancel {width:64px;border:1px solid transparent;}
+
+.parentappcalendar .fc-event-container .start:hover,.parentappcalendar .fc-event-container .cancel:hover {background:#039BE5;color:#fff;border:1px solid #fff;}
+
+.parentappcalendar .fc-toolbar .fc-left {float: none;margin-left: auto;margin-right: auto;width: 255px;}
+.parentappcalendar .fc-left > .fc-today-button {display: none;}
+    .parentappcalendar .fc-toolbar .fc-center {margin-right:auto !important;margin-left:auto !important;float:none;display:block;position:relative;width:140px;}
+    .parentappcalendar .fc-toolbar .fc-center h2{font-weight:bold;margin-top:-30px;width:140px;font-size:18px;}
+    .parentappcalendar .fc-left .fc-button-group .fc-next-button {margin:0 0 0 170px;}
+
+.parentappcalendar .teacherlistingcolor{width:305px;margin:0px auto 15px;}
+.parentappcalendar .teacherlistingsub:last-child{width:80px;}
+.fc-toolbar.fc-header-toolbar {height: auto !important;}
+.teacherTimeTable .teachertab1 .fc-toolbar.fc-header-toolbar {background:#4768ba;height: 59px !important;}
+
+.allappoinment41 table thead tr th,.allappoinment41 table tbody tr td{padding-left:10px;padding-right:10px;}
+
+.parentappcalendar .fc-scroller .fc-time-grid table tbody tr{height:65px;}
+.parenthome_title{padding-left:40px;}
+.parenthometable tr td img {margin-top:-2px;}
+
+.parenthome_wrap .datatable-basic tbody tr td.parentcolumn:nth-child(1),.parenthome_wrap .datatable-basic thead tr th.parentcolumn:nth-child(1){display:none;}
+.parenthome_wrap .datatable-basic tbody tr td.parentcolumn:nth-child(2){width:26%}
+.parenthome_wrap .datatable-basic tbody tr td.parentcolumn:nth-child(3),.parenthome_wrap .datatable-basic tbody tr td.parentcolumn:nth-child(4){width:19%;}
+.parenthome_wrap .datatable-basic tbody tr td.parentcolumn:nth-child(5){width:36%;}
+.parenthome_wrap .datatable-basic thead{background: #4768ba;}
+
+.parenthome_wrap table tr td i.icon-minus3{color:#009aee;border:2px solid #009aee;border-radius:50%;padding:3px;margin-left:25px;font-size:14px;}
+.parenthome_childaccountbtn{padding-left:28px;margin-bottom:20px;border-top:1px solid #ddd;padding-top:18px;}
+.parenthome_childaccountbtn i.icon-plus3{border:2px solid #4768ba;color:#4768ba;padding:7px;border-radius:50%;margin-right:20px;font-size:20px;}
+
+.parenthome_wrap::-webkit-scrollbar,.parentmyproduct .datatable-scroll-lg::-webkit-scrollbar {-webkit-appearance:none;height:12px;}
+.parenthome_wrap::-webkit-scrollbar-track,.parentmyproduct .datatable-scroll-lg::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);background-color: #f8f8f8;}
+.parenthome_wrap::-webkit-scrollbar-thumb,.parentmyproduct .datatable-scroll-lg::-webkit-scrollbar-thumb{background-color: #c1c1c1;}
+
+.dashbord .datatable-basic span.parentstudent{margin-left:100px;}
+.dashbord .datatable-basic thead tr th span.parentstudent{margin-left:120px;}
+
+.parentteacherTimetable .teachervent_choosebtn2{left:40px;width:160px;position: absolute;z-index: 999;}
+.parentteacherTimetable .teachervent_choosebtn{width:160px;position: absolute;left: 200px;z-index: 999;}
+.parentteacherTimetable .teachervent_choosebtn1{width:160px;position: absolute;left: 360px;z-index: 999;}
+
+.billingsub .billinginfo .contaryselect .has-feedback-left .form-control, .has-feedback-left.input-group .form-control, .select2-selection--single .select2-selection__rendered {
+    padding-left: 10px;
+}
+.billingsub .billinginfo .coupon-code-head{font-weight: 500;margin-bottom: 5px;font-size:15px;}
+.billingdetail_container label{font-weight:bold;font-size:16px;padding-left:12px;line-height:24px;vertical-align:top;}
+.billingdetail_container label img{margin-top:-3px;margin-left:5px;}
+.billingdetail_container input[type='checkbox'] {height:16px;width:16px;}
+
+.subtotal_lessonsub{margin-top:20px;}
+.selectedsubject{margin-bottom:10px;}
+.selectedsubject label{font-weight:bold;font-size:16px;display:block;padding-bottom:2px;}
+.selectedsubject label i{color:#ee7b00;float:right;}
+
+.selectedsubject label .popover, .myproductactivecredit .popover{width:200px;background: #f3f3f3;}
+.selectedsubject label .popover .arrow, .myproductactivecredit .popover .arrow{display: block;border-left-color: #939393;}
+.selectedsubject label .popover .popover-title, .myproductactivecredit .popover .popover-title{padding: 10px 10px 0 10px;}
+.selectedsubject label .popover .popover-content{padding: 2px 10px 10px;line-height: 18px;}
+.myproductactivecredit .popover .popover-content{padding: 10px 10px 10px;}
+.selectedsubject label .popover .popover-title::before, .myproductactivecredit .popover .popover-title::before{display:none;}
+
+.parentproduct_header label{float:left;}
+.parentproduct_header .dataTables_filter{width:100%;}
+.timingremaning_changes{margin-left:auto;margin-right:auto;text-align:center;}
+.timingremaning_changes h4{margin-bottom:0px !important;padding-right: 230px;}
+.parentproduct_header .dataTables_filter {margin:0 0 10px 20px;}
+
+.remainingtime_sub{margin-bottom:8px;}
+.remainingtime_name{width:50%;display:inline-block;float:left;font-size:20px;font-weight:bold;text-align:right;padding-right:20px;color:#4768ba;}
+.remainingtime_des{width:50%;display:inline-block;float:left;font-size:20px;font-weight:bold;text-align:left;padding-left:20px;}
+.myproduct_totalremaining{margin-bottom:5px !important;font-size:21px;}
+.remainingtime_sub .remainingtime_des i{color: #4768ba;font-size: 22px;margin-left:2px;}
+.remainingtime_sub .remainingtime_des i.icon-plus-circle2{margin-left:12px;}
+.myproduct_totalremaining .icon-info22{font-size:22px;margin-left:5px;color:#4768ba;}
+
+
+.activate-switch {position: relative;display:inline-block;width:50px;height:24px;margin-left:20px;margin-bottom: -5px;}
+.activate-switch span{margin-right:0px;}
+.activate-switch input {display:none;}
+.activate-slider {position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: #ccc;-webkit-transition: .4s;transition: .4s;}
+.activate-slider:before {position: absolute;content: "";height: 16px;width: 16px;left: 4px;bottom: 4px;background-color: white;-webkit-transition: .4s;transition: .4s;}
+.activate-switch input:checked + .activate-slider {background-color: #4768ba;width: 50px;}
+.activate-switch input:focus + .activate-slider {box-shadow: 0 0 1px #4768ba;}
+.activate-switch input:checked + .activate-slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}
+.activate-slider.activate-round {border-radius: 34px;width: 50px;background-color:#c5c5c5;}
+.activate-slider.activate-round:before {border-radius: 50%;}
+.myproductactivecredit{margin-top:20px;}
+
+.media-list-linked .media-body .subject{color:#000;font-size:13px;}
+.media-list-linked .media-body .subject .icon-graduation2{font-size:15px;color:#4caf50;margin-top:-2px;margin-right:4px;}
+.media-list-linked .media-body .studentname{font-weight:bold;margin-top:5px;font-size:14px;margin-bottom:5px;color: #1094ff;}
+
+body::-webkit-scrollbar{width:5px;position:absolute}
+body::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);border-radius:10px;position:absolute}
+body::-webkit-scrollbar-thumb{border-radius:10px;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.5);position:absolute}
+
+.sidebar-parentmessage .media-left, .media > .pull-left {padding-right:8px;}
+.sidebar-parentmessage .img-md {width:25px!important;height:25px!important;margin-top: 3px;}
+.sidebar-parentmessage .onlineUser .media .media-link {padding: 7px 10px;}
+.sidebar-parentmessage .media-right, .media > .pull-right {padding-left: 10px;}
+
+
+
+@media screen and (max-width:1640px){
+    .parentteacherTimetable  .teachervent_choosebtn2{left:40px;width:135px;position: absolute;z-index: 999;}
+    .parentteacherTimetable .teachervent_choosebtn{width:135px;position: absolute;left: 173px;z-index: 999;}
+    .parentteacherTimetable .teachervent_choosebtn1{width:135px;position: absolute;left: 306px;z-index: 999;}
+
+    .parentteacherTimetable .teachervent_choosebtn .select2-selection--single:not([class*=bg-]):not([class*=border-]), 
+    .parentteacherTimetable .teachervent_choosebtn2 .select2-selection--single:not([class*=bg-]):not([class*=border-]),.teachervent_choosebtn1 .select2-selection--single:not([class*=bg-]):not([class*=border-]) {padding: 6px 0px 6px 6px;height:35px;}
+    
+    .teacherevent_wrap3 .select2-container--open .select2-dropdown--below {width: 115px !important;}
+    .select2-results > .select2-results__options {max-width:115px;}
+     ul.select2-results__options li {font-size: 13px;}
+    .select2-results__option {padding:8px 6px;}
+    .parentteacherTimetable .teachervent_choosebtn .select2-selection .select2-selection__rendered, .teachervent_choosebtn2 .select2-selection .select2-selection__rendered,
+    .parentteacherTimetable .teachervent_choosebtn1 .select2-selection--single .select2-selection__rendered {color: #fff;font-size: 13px;}
+    .parentteacherTimetable .select2-selection--single .select2-selection__rendered {padding-right: 10px;line-height: 20px;}
+    .parentteacherTimetable .teachervent_choosebtn2 .select2-selection--single .select2-selection__rendered {padding-left: 0px;}
+    .parentteacherTimetable .teachervent_choosebtn .select2-selection--single .select2-selection__rendered {padding-left: 0px;}
+    .parentteacherTimetable .teachervent_choosebtn .select2-selection--single .select2-selection__arrow:after, .teachervent_choosebtn2 .select2-selection--single .select2-selection__arrow:after {
+        padding-right: 4px;}
+    .parentteacherTimetable .teachervent_choosebtn1 .select2-selection--single .select2-selection__arrow:after {padding-right:4px;}
+    .parentteacherTimetable .teachertab1 .fc-toolbar.fc-header-toolbar .fc-left .fc-button-group button{padding: 7px 16px;}
+    .parentteacherTimetable .teacher_proceedbtn {min-width: 150px;padding-top:7px;padding-bottom:7px;}
+    .teacherTimeTable .teachertab1 .fc-toolbar.fc-header-toolbar {height:54px !important;}
+
+    .teachervent_choosebtn .select2-selection--single:not([class*=bg-]):not([class*=border-]), .teachervent_choosebtn2 .select2-selection--single:not([class*=bg-]):not([class*=border-]) {
+        margin: 10.3px 0px 0px 10px;}
+    
+}
+
+@media screen and (max-width:1620px){
+.parentdashbordrecentfile .datatable-scroll{overflow-x:auto;}
+.parentdashbordrecentfile .datatable-scroll table thead tr th:last-child{width: 139px;}
+.parentdashbordrecentfile .datatable-scroll table td,.parentdashbordrecentfile .datatable-scroll table th{white-space: nowrap;padding-left:10px;padding-right:10px;}
+}
+
+@media screen and (max-width:1600px){
+
+}
+@media screen and (max-width:1510px){
+.parenthome_header ul.nav.navbar-nav.middle-menu .nav-item a {padding:15px 20px;}
+}
+
+@media screen and (min-width:1300px) and (max-width:1500px){
+.parent-messasgecontainer41 .col-md-5{width:30%;}
+.parent-messasgecontainer41 .col-md-7{width:70%;}
+}
+
+@media screen and (max-width:1487px){
+    .parentappcalendar .fc-scroller .fc-time-grid table tbody tr{height:75px;}
+.parentappcalendar .fc-time-grid .fc-event, .parentappcalendar .fc-time-grid .fc-bgevent {max-height: 120px;height:  120px;}
+.parentappcalendar .fc-time-grid-event .fc-content {height:  120px;max-height:  120px; }
+.parenthome_wrap .datatable-basic thead th{font-size:16px;}
+
+}
+
+@media screen and (max-width:1459px){
+    .parenthome_wrap table tr td .btn-default {font-size:15px;}
+    .dashbord .datatable-basic span.parentstudent{margin-left:50px;}
+    .dashbord .datatable-basic thead tr th span.parentstudent{margin-left:66px;}
+    .dashbord .parenthomedashbord34 thead tr th:nth-child(2) {width:315px;padding-right: 20px;}
+    .dashbord .parenthomedashbord34 thead tr th:nth-child(1){width:165px !important;}
+    .dashbord .parenthomedashbord34 tbody tr td:nth-child(1){width:165px !important;}
+    .dashbord .parenthomedashbord34 tbody tr td:nth-child(6){width: 360px;}
+    .parenthomedashbordwrap34 .datatable-scroll td,.parenthomedashbordwrap34 .datatable-scroll th {white-space: nowrap;}
+}
+
+@media screen and (max-width:1400px){
+.parenthome_header ul.nav.navbar-nav.middle-menu .nav-item a {padding:15px 15px;font-size:15px;}
+
+.parentappcalendar .fc-time-grid .fc-event, .parentappcalendar .fc-time-grid .fc-bgevent {max-height: 120px;height:  120px;}
+.parentappcalendar .fc-time-grid-event .fc-content {height:  120px;max-height:  120px; }
+
+.parenthomedashbordwrap34 .datatable-scroll td,.parenthomedashbordwrap34 .datatable-scroll th{padding-left:10px;padding-right:10px;}
+} 
+
+
+
+@media screen and (max-width:1360px){
+.parenthome_wrap .datatable-basic thead th:nth-child(3),.parenthome_wrap .datatable-basic thead th:nth-child(4){padding-left:10px;padding-right:10px !important;}
+.parenthome_title {padding-left: 25px;}
+.parenthome_wrap .datatable-basic tbody tr td.parentcolumn:nth-child(2){width:20%}
+.parenthome_wrap .datatable-basic tbody tr td.parentcolumn:nth-child(3){width:20%;}
+.parenthome_wrap .datatable-basic tbody tr td.parentcolumn:nth-child(4){width:24%;}
+.parenthome_wrap .datatable-basic tbody tr td.parentcolumn:nth-child(5){width:36%;}
+.parenthomedashbordwrap34 .datatable-scroll{overflow-x: auto;}
+.parenthomedashbordwrap34  tbody tr td:last-child .label-success {margin-right: 20px;}
+}
+
+@media screen and (max-width:1320px){
+
+}
+
+
+
+@media screen and (max-width:1300px){
+    .dashbord .datatable-basic span.parentstudent{margin-left:40px;}
+    .dashbord .datatable-basic thead tr th span.parentstudent{margin-left:56px;}
+    .dashbord .parenthomedashbord34 thead tr th:nth-child(2) {width:315px;padding-right: 20px;}
+    .dashbord .parenthomedashbord34 thead tr th:nth-child(1){width:165px !important;}
+    .dashbord .parenthomedashbord34 tbody tr td:nth-child(1){width:165px !important;}
+}
+
+@media screen and (min-width:1200px) and (max-width:1299px){
+    .parent-messasgecontainer41 .col-md-5{width:35%;}
+    .parent-messasgecontainer41 .col-md-7{width:65%;}
+    }
+
+@media screen and (max-width: 1299px){
+.parenthome_header .navbar-nav > li > a .icon-envelop3, .parenthome_header .navbar-nav > li > a .icon-bell2{font-size:14px;}
+.parenthome_header .navbar-nav > .icon-envelop3{font-size:9px;margin-top:3px}
+.parenthome_header .navbar-nav > .icon-bell2{font-size:9px;margin-top:3px;height:19px;width:19px;text-align:center;padding:0px;line-height:18px;}
+.parenthome_header .navbar-nav > .dropdown-user img {max-height:30px;}
+.parenthome_header ul.nav.navbar-nav.middle-menu .nav-item a {padding: 15px 10px;font-size: 13px;}
+.parenthome_header .navbar-right{margin-right:0px;margin-left:0px;}
+
+.timingremaning_changes h4{margin-bottom:0px !important;padding-right: 180px;}
+}
+@media screen and (min-width:769px) and (max-width:1200px){
+.parenthome_header .navbar-brand > img {height: 28px;}
+}
+
+@media screen and (max-width:1255px){
+    .parenthome_wrap table tr td i.icon-minus3 {margin-left:15px;}
+    .parenthome_wrap table tr td a.btn-default{line-height: 15px;padding:9px 12px;}
+}
+
+@media screen and (max-width:1250px){
+.allappoinment41 #allapp-3{overflow-x:hidden;}
+}
+
+@media screen and (max-width:1230px){
+.parenthome_wrap .datatable-basic thead th:nth-child(3), .parenthome_wrap .datatable-basic thead th:nth-child(4) {padding-left: 5px;padding-right: 5px !important;}
+.parenthome_wrap .datatable-basic thead th {font-size: 15px;}
+}
+
+@media screen and (max-width:1220px){
+.allappoinment41 table thead tr th:nth-child(2),.allappoinment41 table tbody tr td:nth-child(2){width:80px;}
+.parenthome_wrap table tr td i.icon-minus3 {margin-left:0px;margin-top:5px;}
+}
+
+@media screen and (max-width:1249px){
+    .parentteacherTimetable .teachertab1 .fc-toolbar .fc-center {width:130px;}
+    .parentteacherTimetable .teachertab1 .fc-toolbar .fc-center h2 {width:130px;font-size:16px;}
+    .teachertab1 .fc-toolbar .fc-center {margin-left: 458px !important;}
+    .parentteacherTimetable .teachertab1 .fc-left .fc-button-group .fc-next-button {margin: 0 0 0 130px;}
+    .parentteacherTimetable .teachertab1 .fc-left .fc-button {padding: 6px 12px !important;}
+    .parentteacherTimetable .teacher_proceedbtn { min-width: 98px;padding-left:10px;padding-right:10px;}
+}
+@media screen and (min-width:1101px) and (max-width:1249px){
+    .teacherTimeTable .teachertab1 .fc-toolbar .fc-left {margin-left: 425px;}
+}
+
+@media screen and (max-width:1192px){
+    .parentappcalendar .fc-time-grid .fc-event, .parentappcalendar .fc-time-grid .fc-bgevent {max-height: 135px;height:  135px;}
+    .parentappcalendar .fc-time-grid-event .fc-content {height:  135px;max-height:  135px; }
+    .parentappcalendar .fc-time-grid .fc-event{padding:10px 5px;}
+    .parentappcalendar .fc-scroller .fc-time-grid table tbody tr{height:82.5px;}
+}
+
+@media screen and (min-width:1101px) and (max-width:1150px){
+    .teacherTimeTable .teachertab1 .fc-toolbar .fc-left {margin-left: 410px;}
+    .teachertab1 .fc-toolbar .fc-center {margin-left: 443px !important;}
+    .parentteacherTimetable .teachertab1 .fc-left .fc-button {padding: 6px 10px !important;}
+    .parentteacherTimetable .teachertab1 .fc-toolbar .fc-center h2 {width: 110px;font-size:14px;}
+    .parentteacherTimetable .teachertab1 .fc-left .fc-button-group .fc-next-button {margin: 0 0 0 120px;}
+    .parentteacherTimetable .teacher_proceedbtn {min-width:84px;padding-left:7px;padding-right:7px;padding-top:8px;padding-bottom:8px;font-size:11px;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1100px){
+    .teacherTimeTable .teachertab1 .fc-toolbar.fc-header-toolbar{height:120px !important;}
+    .teachertab1 .fc-toolbar .fc-center{margin-left:45px !important;}
+    .parentteacherTimetable .teachervent_choosebtn2{margin:5px 1% 5px 0%;}
+    .parentteacherTimetable .teachertab1 .fc-toolbar .fc-center h2{line-height: 28px;}
+
+    .parentteacherTimetable  .teachervent_choosebtn2{left:40px;width:29.333%;position: absolute;z-index: 999;}
+    .parentteacherTimetable .teachervent_choosebtn{width:29.333%;position: absolute;left: 33.444%;z-index: 999;}
+    .parentteacherTimetable .teachervent_choosebtn1{width:29.333%;position: absolute;left: 62.666%;z-index: 999;}
+    }
+
+@media screen and (max-width:1130px){
+    .parenthome_header .navbar-brand {padding:15px 10px;}
+    .parenthome_header .navbar-nav {margin-left:0px;}
+    
+    .parenthome_header .icon-envelop3:before {font-size:12px;}
+    .parenthome_header .navbar-right > li > a {padding: 12px 8px;}
+    .parenthome_header .navbar-right .badge {font-size:9px;}
+    .parenthome_header .navbar-nav > .dropdown-user img {max-height:20px;}
+    .parenthome_header .navbar-right .icon-bell2:before {font-size:11px;}
+    .navbar-nav > .dropdown-user > a > img + span {font-size:13px;}
+    .parenthome_header .navbar-right .caret:after {font-size:13px;}
+    .parenthome_header .navbar-right li:nth-child(1),.parenthome_header .navbar-right li:nth-child(2){margin-top:2px;}
+    .parenthome_header .navbar-right li.dropdown-user a{padding-top: 7px;}
+
+    .parenthome_header {padding-right: 0px;}
+    .parenthome_header .middle-menu > li > a{padding-left:6px;padding-right:6px;}
+
+    .parentproduct_header label {float: none;}
+    .parentproduct_header .panel_view { margin-top: 0px; }
+    .timingremaning_changes h4{text-align:left;padding-right:0px;}
+    .parentproduct_header .dataTables_filter label {margin-left: auto;margin-right: auto;display: block; width: 260px;}
+    }
+
+@media screen and (max-width:1099px){
+
+}
+
+@media screen and (max-width:1024px){
+    .remainingtime_name,.remainingtime_des,.myproduct_totalremaining .icon-info22 {font-size: 17px;}
+    .remainingtime_sub .remainingtime_des i {font-size: 19px;}
+    .activate-slider.activate-round {width: 50px;}
+    .activate-switch {width:50px;height:24px;margin-left:15px;margin-bottom: -4px;}
+.activate-slider:before {height: 17px;width: 17px;}
+.activate-switch input:checked + .activate-slider {width: 50px;}
+.myproduct_totalremaining,.myproductactivecredit{font-size:18px;}
+}
+
+@media screen and (max-width:1050px){
+
+}
+
+@media screen and (max-width:1000px){
+.parenthome_foot textarea{display:block;margin-top:15px;margin-bottom:15px;margin-left:auto;margin-right:auto;}
+}
+
+@media screen and (min-width:769px) and (max-width:991px){
+.parenthome_header .navbar-brand > img {height:34px;}
+.parenthome_header .navbar-brand {padding: 10px 10px;display: block;width: 100%;}
+.parenthome_header .navbar-header {width: 100%;}
+.parenthome_header .middle-menu{width:654px;display: block;margin-left: auto;margin-right: auto;float: none;}
+.parenthome_header .middle-menu > li > a {padding-left: 6px;padding-right: 6px;padding-top:0px;padding-bottom:10px;}
+.parenthome_header .navbar-right{margin-top:-85px;}
+.parenthome_header ul.nav.navbar-nav.middle-menu .nav-item a{padding-top:0px !important;}
+} 
+
+@media screen and (max-width:991px){
+.parentappcalendar .fc-toolbar.fc-header-toolbar{margin-top: 40px;}
+.teacherTimeTable .teachertab1 .fc-toolbar.fc-header-toolbar {height: 250px !important;}
+
+    .parentteacherTimetable  .teachervent_choosebtn2{left:4%;width:90.333%;position: absolute;z-index: 999;margin-top:50px;}
+    .parentteacherTimetable .teachervent_choosebtn{width:90.333%;position: absolute;left:4%;z-index: 999;margin-top:100px;}
+    .parentteacherTimetable .teachervent_choosebtn1{width:90.333%;position: absolute;left:4%;z-index: 999;margin-top:150px;}
+    
+    .teacherevent_wrap3 .select2-container--open .select2-dropdown--below {width: 100% !important;}
+    .select2-results > .select2-results__options {max-width:100%;}
+
+    .teacher_proceedbtn{margin-top:250px;}
+    .teachertab1 .fc-toolbar > * > :first-child {margin-top: 156.6px !important;}
+    .teachertab1 .fc-toolbar .fc-center{margin-right:auto !important;margin-left:auto !important;}
+    .teachertab1 .fc-toolbar .fc-center h2{margin-top:-27px !important;}
+    .teacherTimeTable .teachertab1 .fc-toolbar .fc-left {width: 194px;}
+    .teachertab1 .fc-button-group .fc-prev-button { left: auto;}
+    .timingremaning_changes h4 {text-align: center;}
+
+    .parentmyproduct .datatable-scroll-lg::-webkit-scrollbar {-webkit-appearance:none;height:6px;}
+    
+}
+@media screen and (max-width:768px){
+    .parentappcalendar .fc-toolbar .fc-center h2 {margin-top:-40px;}
+    .parentappcalendar .fc-agendaWeek-view .fc-widget-content .fc-scroller {height:100% !important;}
+}
+ @media screen and (max-width:600px){
+    .parentproduct_header .dataTables_filter {margin: 0 0 16px 20px;}
+ }
+
+@media screen and (max-width:500px){
+    .parentappcalendar .teacherlistingsub:last-child {width:60px;}
+    .parentappcalendar .teacherlistingcolor{width:222px;}
+    .parentappcalendar .fc-button {padding:6px 13px;}
+    .parentappcalendar .fc-toolbar .fc-center h2 {margin-top: -38px;}
+
+    .parentteacherTimetable  .teachervent_choosebtn2{left:8%;width:80%;position: absolute;z-index: 999;margin-top:50px;margin-left:auto;margin-right:auto;display:block;}
+    .parentteacherTimetable .teachervent_choosebtn{width:80%;position: absolute;left:8%;z-index: 999;margin-top:100px;margin-left:auto;margin-right:auto;display:block;}
+    .parentteacherTimetable .teachervent_choosebtn1{width:80%;position: absolute;left:8%;z-index: 999;margin-top:150px;margin-left:auto;margin-right:auto;display:block;}
+    
+    .furtherpayment_container label {font-size: 14px;margin-top: -2px;line-height: 13px;}
+    .ordersummary .payment_message {font-size: 14px;}
+}
+
+@media screen and (max-width:450px){
+.parenthome_foot textarea{width:180px;max-width:180px;}
+.parenthome_childaccountbtn {padding-left:0px;text-align:center;}
+.parenthome_childaccountbtn i.icon-plus3 {padding:3px;margin-right:10px;font-size:16px;}
+.parenthome_childaccountbtn button.btn-primary{padding: 6px 10px;font-size:12px;}
+.invoice_totalremaining {line-height: 21px;padding: 12px 0px;}
+}
+
+@media screen and (max-width:348px){
+    .parenthome_childaccountbtn i.icon-plus3 {margin-bottom:6px;margin-right:0px;height: 26px;
+        width: 26px;display:block;margin-left:auto;margin-right:auto;}
+        .parentproduct_header .dataTables_filter label input {outline:0;width:140px;}
+        .parentproduct_header .dataTables_filter label {width: 200px;}
+        
+    }

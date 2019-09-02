@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'IndieFlower';
+  src: url('IndieFlower.eot');
+  src: url('IndieFlower.woff2') format('woff2'),
+       url('IndieFlower.woff') format('woff'),
+       url('IndieFlower.ttf') format('truetype'),
+       url('IndieFlower.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

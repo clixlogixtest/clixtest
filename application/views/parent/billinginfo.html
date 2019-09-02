@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>easy Tutor</title>
+    <link rel="icon" href="../assets/images/icon.png" sizes="192x192" />
+    <meta name="description" content="easy tutor, online tutor">
+    <!-- Global stylesheets -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="../assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/core.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/colors.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/parentstyle.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/responsive.css" rel="stylesheet" type="text/css">
+
+    <!-- /global stylesheets -->
+
+
+    <!-- Core JS files -->
+    <script type="text/javascript" src="../assets/js/plugins/loaders/pace.min.js"></script>
+    <script type="text/javascript" src="../assets/js/core/libraries/jquery.min.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script type="text/javascript" src="../assets/js/core/libraries/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/loaders/blockui.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();  
+        });
+        </script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script type="text/javascript" src="../assets/js/plugins/forms/wizards/steps.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/visualization/d3/d3.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/forms/styling/uniform.min.js"></script>
+
+
+
+
+
+
+    <!-- <script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/forms/styling/switch.min.js"></script> -->
+    <script type="text/javascript" src="../assets/js/plugins/tables/datatables/datatables.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/ui/moment/moment.min.js"></script>
+    <!--script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script-->
+    <script type="text/javascript" src="../assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/forms/styling/switch.min.js"></script>
+    <!-- datepicker Theme JS files -->
+    <!-- Theme JS files -->
+    <!-- <script type="text/javascript" src="assets/js/plugins/notifications/jgrowl.min.js"></script> -->
+    <script type="text/javascript" src="../assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/ui/fullcalendar/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/pickers/daterangepicker.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/pickers/anytime.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/pickers/pickadate/picker.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/pickers/pickadate/legacy.js"></script>
+    <script type="text/javascript" src="../assets/js/pages/picker_date.js"></script>
+    <script type="text/javascript" src="../assets/js/core/libraries/jquery_ui/interactions.min.js"></script>
+
+
+
+
+    <script type="text/javascript" src="../assets/js/core/libraries/jquery_ui/widgets.min.js"></script>
+    <script type="text/javascript" src="../assets/js/core/libraries/jquery_ui/effects.min.js"></script>
+
+
+
+
+    <!-- datepicker Theme JS files -->
+
+
+    <script type="text/javascript" src="../assets/js/core/app.js"></script>
+    <script type="text/javascript" src="../assets/js/pages/datatables_basic.js"></script>
+
+    <script type="text/javascript" src="../assets/js/pages/form_select2.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/pages/wizard_steps.js"></script> -->
+    <script type="text/javascript" src="../assets/js/pages/extra_fullcalendar.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/ui/ripple.min.js"></script>
+    <script type="text/javascript" src="../assets/js/pages/form_checkboxes_radios.js"></script>
+
+
+
+
+
+    <!-- /theme JS files -->
+
+    <!--script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/core/libraries/jquery_ui/interactions.min.js"></script>
+    
+
+	<script type="text/javascript" src="assets/js/core/libraries/jquery_ui/widgets.min.js"></script>
+    <script type="text/javascript" src="assets/js/pages/jqueryui_navigation.js"></script-->
+
+
+
+</head>
+
+</head>
+
+<body class="navbar-bottom">
+
+    <!-- Main navbar -->
+    <div class="navbar navbar-inverse bg-primary  navbar-fixed-top parenthome_header">
+        <div class="navbar-header">
+            <a data-toggle="collapse" data-target="#navbar-mobile" class=" mobile_show mobile_menu_toggle">
+                <i class="icon-three-bars"></i>
+            </a>
+
+            <a class="navbar-brand" href="index.html">
+                <img src="../assets/images/logo.png" alt="">
+            </a>
+
+            <ul class="nav navbar-nav visible-xs-block">
+                <li class="mobile_hide">
+                    <a data-toggle="collapse" data-target="#navbar-mobile">
+                        <i class="icon-three-bars"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="sidebar-mobile-main-toggle">
+                        <i class="icon-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-mobile">
+            <ul class="nav navbar-nav middle-menu">
+                <li>
+                    <a class="sidebar-control sidebar-main-toggle hidden-xs">
+                        <i class="icon-paragraph-justify3"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                        <a href="teacherlist.html">FIND TEACHER </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">THIS IS HOW IT WORKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">PRICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="">BOOK FOR GROUP SESSION</a>
+                        </li>
+            </ul>
+
+            <!-- <p class="navbar-text"><span class="label bg-success-400">Online</span></p> -->
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-envelop3"></i>
+                        <span class="visible-xs-inline-block position-right">Messages</span>
+                        <span class="badge bg-warning-400">2</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-content width-350">
+                        <div class="dropdown-content-heading">
+                            Messages
+                            <ul class="icons-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-compose"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="media-list dropdown-content-body">
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                    <span class="badge bg-danger-400 media-badge">5</span>
+                                </div>
+
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">James Alexander</span>
+                                        <span class="media-annotation pull-right">04:58</span>
+                                    </a>
+
+                                    <span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                    <span class="badge bg-danger-400 media-badge">4</span>
+                                </div>
+
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Margo Baker</span>
+                                        <span class="media-annotation pull-right">12:16</span>
+                                    </a>
+
+                                    <span class="text-muted">That was something he was unable to do because...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Jeremy Victorino</span>
+                                        <span class="media-annotation pull-right">22:48</span>
+                                    </a>
+
+                                    <span class="text-muted">But that would be extremely strained and suspicious...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Beatrix Diaz</span>
+                                        <span class="media-annotation pull-right">Tue</span>
+                                    </a>
+
+                                    <span class="text-muted">What a strenuous career it is that I've chosen...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Richard Vango</span>
+                                        <span class="media-annotation pull-right">Mon</span>
+                                    </a>
+
+                                    <span class="text-muted">Other travelling salesmen live a life of luxury...</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="dropdown-content-footer">
+                            <a href="message.html" data-popup="tooltip" title="All messages">
+                                <i class="icon-menu display-block"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle animation" data-animation="shake" data-toggle="dropdown">
+                        <i class="icon-bell2"></i>
+                        <span class="visible-xs-inline-block position-right">Notification</span>
+                        <span class="badge bg-warning-400">12</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-content">
+                        <!-- <div class="dropdown-content-heading">
+								Users online
+								<ul class="icons-list">
+									<li><a href="#"><i class="icon-gear"></i></a></li>
+								</ul>
+							</div> -->
+
+                        <ul class="media-list dropdown-content-body width-300">
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Jordana Ansley</a>
+                                    <span class="display-block text-muted text-size-small">Lead web developer</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-success"></span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Will Brason</a>
+                                    <span class="display-block text-muted text-size-small">Marketing manager</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-danger"></span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Hanna Walden</a>
+                                    <span class="display-block text-muted text-size-small">Project manager</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-success"></span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Dori Laperriere</a>
+                                    <span class="display-block text-muted text-size-small">Business developer</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-warning-300"></span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Vanessa Aurelius</a>
+                                    <span class="display-block text-muted text-size-small">UX expert</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-grey-400"></span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="dropdown-content-footer">
+                            <a href="#" data-popup="tooltip" title="All users">
+                                <i class="icon-menu display-block"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="dropdown dropdown-user mobile_hide">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="../assets/images/profile_pic.png" alt="">
+                        <span>Victoria</span>
+                        <i class="caret"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li>
+                            <a href="profile_detail.html">
+                            <i class="icon-user-plus"></i> My profile</a>
+                            </li>
+                            <li>
+                            <a href="myproduct.html">
+                            <i class="icon-stack-empty"></i> My Products</a>
+                            </li>
+                            <li>
+                            <a href="message.html">
+                            <span class="badge bg-teal-400 pull-right">58</span>
+                            <i class="icon-comment-discussion"></i> Messages</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                            <a href="login.html">
+                            <i class="icon-switch2"></i> Logout</a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /main navbar -->
+
+
+
+
+    <!-- Page container -->
+    <div class="page-container">
+
+        <!-- Page content -->
+        <div class="page-content">
+
+            <!-- Main sidebar -->
+            <div class="sidebar sidebar-main sidebar-default">
+                    <div class="sidebar-content">
+
+                            <!-- Main navigation -->
+                            <div class="sidebar-category sidebar-category-visible">
+                                <div class="sidebar-user-material">
+                                    <div class="category-content">
+                                        <div class="sidebar-user-material-content">
+                                            <a href="#">
+                                                <img src="../assets/images/profile_pic.png" class="img-circle img-responsive" alt="">
+                                            </a>
+                                            <h6>Victoria Baker</h6>
+                                            <span class="text-size-small">Santa Ana, CA</span>
+                                        </div>
+        
+                                        <div class="sidebar-user-material-menu mobile_hide">
+                                            <a href="#user-nav" data-toggle="collapse">
+                                                <span>My account</span>
+                                                <i class="caret"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+        
+                                    <div class="navigation-wrapper collapse" id="user-nav">
+                                        <ul class="navigation">
+                                            <li class="mobile_hide">
+                                                <a href="profile_detail.html">
+                                                    <i class="icon-user-plus"></i>
+                                                    <span>My profile</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="icon-coins"></i>
+                                                    <span>My products</span>
+                                                </a>
+                                            </li>
+                                            <li class="mobile_hide">
+                                                <a href="#">
+                                                    <i class="icon-comment-discussion"></i>
+                                                    <span>
+                                                        <span class="badge bg-teal-400 pull-right">58</span> Messages</span>
+                                                </a>
+                                            </li>
+                                            <li class="divider"></li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="icon-cog5"></i>
+                                                    <span>Obsolete</span>
+                                                </a>
+                                            </li>
+                                            <li class="mobile_hide">
+                                                <a href="#">
+                                                    <i class="icon-switch2"></i>
+                                                    <span>Logout</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="category-content no-padding">
+        
+                                    <ul class="navigation navigation-main navigation-accordion">
+        
+                                        <!-- Main -->
+                                        <li class="navigation-header">
+                                            <span>Main</span>
+                                            <i class="icon-menu" title="Main pages"></i>
+                                        </li>
+                                        <li>
+                                                <a href="dashboard.html">
+                                                    <i class="icon-home4"></i>
+                                                    <span>Dashboard</span>
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                    <a href="appointmentCalender.html">
+                                                        <i class="icon-calendar3"></i>
+                                                        <span>Appointment Calender</span>
+                                                    </a>
+                                                </li>
+                                            <li>
+                                                <a href="myproduct.html">
+                                                    <i class="icon-stack-empty"></i>
+                                                    <span>All My Products</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                    <a href="all_appointments.html" class="legitRipple">
+                                                        <i class="icon-user-check"></i>
+                                                        <span>All Appointment</span>
+                                                    </a>
+                                                </li>
+                                            <li>
+                                                <a href="">
+                                                <i class="icon-bag"></i>
+                                                <span>Buy Packages</span>
+                                                </a>
+                                                </li>
+                                                
+                                            <li>
+                                                <a href="/login.html#basic-tab2">
+                                                    <i class="icon-users2"></i>
+                                                    <span>Create A Child Account</span>
+                                                </a>
+                                            </li>
+                                            
+                                            <li class="mobile_show mobile_logout">
+                                                    <a href="#">
+                                                    <i class="icon-switch2"></i>
+                                                    <span>Logout</span>
+                                                    </a>
+                                                    </li>
+                                        <!-- /page kits -->
+        
+                                    </ul>
+        
+                                </div>
+                            </div>
+                            <!-- /main navigation -->
+        
+                        </div>
+            </div>
+            <!-- /main sidebar -->
+
+
+            <!-- Main content -->
+
+
+
+
+
+
+
+
+
+            <div class="content-wrapper bonusprogram">
+                <!-- Basic datatable -->
+
+                <div class="panel panel-flat">
+
+                    <div class="row billingsub">
+                        <div class="col-md-6">
+
+                            <div class="panel-body billinginfo">
+                                <h5 class="panel-title text-center">Parents Information</h5>
+
+                                <form name="billinginfo" action="post">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control typeahead-basic" name="parentname" placeholder="Name Of Parent" required="required"
+                                            pattern="[a-zA-Z]{2,}" title="Enter Valid Name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="parentemail" placeholder="Email Id Of Parent" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                                            title="Enter Valid Email">
+                                    </div>
+
+                                    <div class="form-group country">
+
+
+
+
+
+                                        <div class="contaryselect">
+
+                                            <select class="select select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                                <optgroup label="Mountain Time Zone">
+                                                    <option value="AZ">Country</option>
+                                                    <option value="CO">Colorado</option>
+                                                    <option value="ID">Idaho</option>
+                                                    <option value="WY">Wyoming</option>
+                                                </optgroup>
+                                                <optgroup label="Central Time Zone">
+                                                    <option value="AL">Alabama</option>
+                                                    <option value="AR">Arkansas</option>
+                                                    <option value="KS">Kansas</option>
+                                                    <option value="KY">Kentucky</option>
+                                                </optgroup>
+                                                <optgroup label="Eastern Time Zone">
+                                                    <option value="CT">Connecticut</option>
+                                                    <option value="FL">Florida</option>
+                                                    <option value="MA">Massachusetts</option>
+                                                    <option value="WV">West Virginia</option>
+                                                </optgroup>
+                                            </select>
+
+                                        </div>
+
+                                        <input type="text" class="form-control" name="postalcode" placeholder="Postal Code" required="required" pattern="[0-9]{3,6}"
+                                            title="Enter Valid Postal">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="city" placeholder="City" required="required" pattern="[a-zA-Z]{2,}" title="Enter Valid Country">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="street" placeholder="Street &amp; house no." required="required" pattern="[a-zA-Z0-9\s]{2,}"
+                                            title="Enter Valid Street">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="mobile" placeholder="Mobile Phone" required="required" pattern="[a-zA-Z0-9\s]{2,}"
+                                            title="Enter Valid Street">
+                                    </div>
+                                    <label class="coupon-code-head">Do you have a coupon-code ?</label>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="coupon" placeholder="Coupon Code" required="required" pattern="[a-zA-Z0-9\s]{2,}"
+                                            title="Enter Valid Street">
+                                    </div>
+
+
+
+
+                                    <h5 class="panel-title text-center cardhead">Billing Details</h5>
+
+                                    <div class="form-group billingdetail_container">
+                                        <input type="checkbox" class="styled">
+                                        <label>Credit Card <img src="../assets/images/visa.png" alt="visa"/></label>
+                                        </div>
+
+                                        <div class="form-group billingdetail_container">
+                                            <input type="checkbox" class="styled">
+                                            <label>SEPA Direct Debit <img src="../assets/images/sepa.png" alt="sepa"/></label>
+                                            </div>
+
+                                            <div class="form-group billingdetail_container">
+                                                <input type="checkbox" class="styled">
+                                                <label>PayPal <img src="../assets/images/Paypal.png" alt="Paypal"/></label>
+                                                </div>
+
+                                                <div class="form-group billingdetail_container">
+                                                    <input type="checkbox" class="styled">
+                                                    <label>SOFORT <img src="../assets/images/sofort.png" alt="sofort"/></label>
+                                                    </div>
+
+                                                    <div class="form-group billingdetail_container">
+                                                        <input type="checkbox" class="styled">
+                                                        <label>Giropay <img src="../assets/images/giropay.png" alt="giropay."/></label>
+                                                        </div>
+
+                                                        <div class="form-group billingdetail_container">
+                                                            <input type="checkbox" class="styled">
+                                                            <label>Invoice <img src="../assets/images/invoice.png" alt="invoice"/></label>
+                                                            </div>
+
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="panel-body billinginfo ordersummary">
+                                <h5 class="panel-title text-center">Order Summary</h5>
+
+                                <h4>Online Lessons</h4>
+                                <h6>20x online-lessons credited to account</h6>
+                                <div class="selectedsubject">
+                                <label>English - 20 hours <i class="icon-info22" data-toggle="popover" data-trigger="hover" data-placement="auto right" title="Description" data-content="Lorem Ipsum is simply dummy text of the printing and typesetting industry."></i></label>
+                                <label>Mathematics - 40 hours <i class="icon-info22" data-toggle="popover" data-trigger="hover" data-placement="auto right" title="Description" data-content="It is a long established fact that a reader will be distracted by the readable"></i></label>
+                                </div>
+                                <label>60 hours * $20 = $ 1200</label>
+
+
+                                <div class="form-group subtotal_lessonsub">
+                                    <div class="subtotal clearfix">
+                                        <span class="pull-left">Subtotal</span>
+                                        <span class="pull-right">$1200</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="subtotal clearfix">
+                                        <span class="pull-left">Vat</span>
+                                        <span class="pull-right">$50</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="subtotal totalpayment clearfix">
+                                        <span class="pull-left">Total Payment</span>
+                                        <span class="pull-right">$1250</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <p class="payment_message">After payment you will recieve immediate access to the product and service</p>
+                                </div>
+
+                                <div class="form-group furtherpayment_container">
+                                    <h6>Future Payment</h6>
+                                    <p class="payment_message">Monthly Payment of $15</p>
+
+                                    <input type="checkbox" class="styled">
+                                    <label>I agree to the above terms of payment</label>
+
+                                </div>
+
+                                <div class="form-group furtherpayment_button">
+                                    <button class="btn bg-blue btn-rounded legitRipple">Pay Now</button>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- /basic datatable -->
+
+
+        </div>
+        <!-- /main content -->
+
+    </div>
+    <!-- /page content -->
+
+    </div>
+    <!-- /page container -->
+
+
+    <!-- Footer -->
+    <div class="navbar navbar-default navbar-fixed-bottom footer">
+        <ul class="nav navbar-nav visible-xs-block">
+            <li>
+                <a class="text-center collapsed" data-toggle="collapse" data-target="#footer">
+                    <i class="icon-circle-up2"></i>
+                </a>
+            </li>
+        </ul>
+
+        <div class="navbar-collapse collapse" id="footer">
+            <div class="navbar-text">
+                &copy; 2016-2017 -
+                <a href="index.html" class="navbar-link">Easy-Tutor</a>
+            </div>
+
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /footer -->
+
+</body>
+
+</html>

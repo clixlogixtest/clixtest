@@ -1,0 +1,975 @@
+@charset "utf-8";
+
+/* .messagelistflat .datatable-scroll{height:800px;overflow-y:scroll;} */
+
+.allappointment_container .tabbable .nav{position:relative;width:100%;float:left;}
+.allappointment_container .teacherappoinment_viewall{position:absolute;float:right; margin-left: -100px;}
+.bookedstudent{font-size:15px;padding-left:60px;}
+.bookedstudent strong{font-weight:bold;}
+.studntbookedinner{width:260px;}
+.studntbookedinner tr td{padding:0px !important;}
+.allappointment_container .icon-envelop{font-size:26px;}
+.allappointment_container .icon-cloud-upload2{font-size:26px;}
+
+
+.allappointment_container table tr td{text-align:center;}
+.studntbookedinner tr td img{margin-top:-5px;}
+.allappointment_container table tr th{text-align:center;padding-right:20px !important;}
+.allappointment_container table tr th:nth-child(2){text-align:left !important;padding-left: 120px;}
+
+
+.btn-primary {color: #fff;background-color: #4768ba;border-color: #4768ba;}
+.allappointment_style table tr td{text-align:left;}
+.allappointment_style table tr th{text-align:left;padding-right:40px !important;}
+.allappointment_style table tr th:nth-child(2){text-align:left !important;padding-left: 20px;}
+
+
+
+.studentsection_seperator{height:10px;width:100%;background:#eeeded;margin-top:30px;margin-bottom:10px;}
+.studentsection_seperator::after{position:absolute;content:'';width:42px;height:10px;background:#eeeded;left:-22px;}
+.studentsection_seperator::before{position:absolute;content:'';width:42px;height:10px;background:#eeeded;right:-22px;}
+
+.teachermembership_nav li a{border-right:1px solid #ddd;}
+.teachermembership_nav li:last-child a{border-right:0px;}
+
+.membership_style #basic-tab3 table thead tr th:nth-child(1),.membership_style #basic-tab3 table thead tr th:nth-child(2){display:none;}
+.membership_style #basic-tab3 table tbody tr td:nth-child(1),.membership_style #basic-tab3 table tbody tr td:nth-child(2){display:none;}
+
+.sharedfile thead tr th:nth-child(2){text-align:center !important;padding-left: 0px;}
+.sharedfile tbody tr td figurecaption{display:block;}
+.sharedfile thead tr th:nth-last-child(2),.sharedfile thead tr td:nth-last-child(2){width:auto !important;}
+.sharedfile thead tr th:last-child,.sharedfile tbody tr td:last-child{padding:0px;}
+.teacher_listofappoinment{height:600px;overflow-x:auto;}
+.listofappointment_bottom h4{margin-bottom:30px;padding: 10px 0px;background: #f3f3f3;}
+
+/* .teacher_listofappoinment thead tr th{ height:0;line-height:0;padding-top:0;padding-bottom: 0px;border:none;white-space:nowrap;}
+
+.teacher_listofappoinment thead tr th div.teachers_listofappoinment_head{
+        position: absolute;top: 0;
+        margin-left: -25px;
+        line-height: normal;background:#4768ba;
+      } */
+
+
+.listofappointment_title .icons-list{width:60px;}
+.listofappointment_title .teacherappoinment_viewall{margin-left:-250px;}
+
+.online {position: relative;display: inline-block;width: 36px;height:20px;vertical-align:bottom;margin-left: 5px;}
+.online input {display:none;}
+.onlineslider{position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: #ccc;-webkit-transition:.4s;transition:.4s;}
+.onlineslider:before {position: absolute;content: "";height: 14px;width: 14px;left: 3px;bottom: 3px;background-color: #2196F3;-webkit-transition: .4s;transition: .4s;}
+.online input:checked + .onlineslider {background-color: #ffffff;}
+
+.online input:checked + .onlineslider:before {-webkit-transform: translateX(15px);-ms-transform: translateX(15px);transform: translateX(15px);}
+.onlineslider.round {border-radius: 34px;}
+.onlineslider.round:before {border-radius: 50%;}
+.appointmentofweek .fc-event .fc-bg{background-color:transparent;}
+
+.allappointment_container table tr th.appointments_subject{padding-left:20px;text-align:center !important;}
+.appointmentofweek .fc-time-grid .fc-event, .fc-time-grid .fc-bgevent{padding:8px;min-height:60px;}
+
+.fc-event-container .start{background:#fff;border:0px;color:#039BE5;font-size:12px;display:inline-block;border-radius:5px;width:40px;}
+.fc-event-container .cancel{background:#fff;border:0px;color:#039BE5;font-size:12px;display:inline-block;border-radius:5px;width:40px;}
+
+
+/* .tutorregistration_top{background:-webkit-linear-gradient(top,#4768ba 0%,#16bee7 100%);background:linear-gradient(top,#4768ba 0%,#16bee7 100%);
+background: -moz-linear-gradient(top,#4768ba 0%,#16bee7 100%);color:#fff;padding:100px 0px;position:relative;
+background-image:url(../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png);} */
+.tutorregistration_top{background: url('../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png') bottom center no-repeat, linear-gradient(top,#4768ba 0%,#16bee7 100%);
+    background: url('../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png') bottom center no-repeat, -webkit-linear-gradient(top,#4768ba 0%,#16bee7 100%); 
+    background: url('../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png') bottom center no-repeat, -moz-linear-gradient(top,#4768ba 0%,#16bee7 100%);
+    background: url('../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png') bottom center no-repeat, -o-linear-gradient(top,#4768ba 0%,#16bee7 100%);background-size:100%;color:#fff;padding:100px 0px;position:relative;}
+
+ .tutortraning_top{background: url('../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png') bottom center no-repeat, linear-gradient(top,#4768ba 0%,#16bee7 100%);
+        background: url('../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png') bottom center no-repeat, -webkit-linear-gradient(top,#4768ba 0%,#16bee7 100%); 
+        background: url('../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png') bottom center no-repeat, -moz-linear-gradient(top,#4768ba 0%,#16bee7 100%);
+        background: url('../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png') bottom center no-repeat, -o-linear-gradient(top,#4768ba 0%,#16bee7 100%);background-size:100%;color:#fff;padding:100px 0px;position:relative;}
+/* .tutorregistration_top::before{background-image:url(../images/Nachhilfe-B_C3_BCcher-Stifte-Zirkel.png);background-repeat:no-repeat;background-size:cover;position:absolute;content:'';bottom:0%;height:159px;width:1280px;z-index:9;}
+.tutorregistration_top::after{background-image:url(../images/subscripb_right.png);background-repeat:no-repeat;background-size:cover;position:absolute;content:'';right:10%;top:0%;height:335px;width:180px;z-index:9;} */
+
+/* .tutorregistration_sub{background-image:url(../images/Nachhilfe-B_C13_BCcher-Stifte-Zirkel.png);background-position: bottom center;} */
+
+.tutorregistration_top p{max-width:1000px;margin-left:auto;margin-right:auto;line-height:27px;}
+.tutorregistration_top h4,.tutorregistration_top h2{font-weight: 500;}
+.tutorregistration_top h4{margin: 18px 0px 15px;}
+
+.tutortraning_top p{max-width:1000px;margin-left:auto;margin-right:auto;line-height:27px;}
+.tutortraning_top h4,.tutortraning_top h2{font-weight: 500;}
+.tutortraning_top h4{margin: 18px 0px 15px;}
+
+.tutorregistration_middle{margin-top:60px;}
+.tutorregistration_middle .panel-body{min-height:190px;padding-left:38px;}
+.tutorregistration_middle .panel-body .panel-left-tick{width:30px;min-height:190px;position: absolute;margin-left:-28px;}
+.tutorregistration_middle .panel-body .panel-left-tick .fa{font-size:22px;margin-top:2px;color:#2196F3;}
+
+.lookingfortutoring{margin:40px auto 60px}
+.lookingfortutoring h3{font-weight:600;text-align:center;font-size:26px;margin-bottom:15px;}
+.lookingfortutoring p{text-align:center;max-width:1000px;margin-left:auto;margin-right:auto;line-height:27px;}
+
+.bringalong_container{background:#fff;padding:80px 0px;}
+.bringalong_container h2{text-align: center;color:#224993;font-weight:500;font-size:30px;}
+.bringalong_container ul{margin-top:5%}
+.bringalong_container ul li{list-style:none;padding-bottom:20px;}
+.bringalong_container ul li .fa-check{height:20px;width:20px;line-height:20px;position:absolute;}
+.bringalong_container ul li span{padding-left:25px;}
+
+.bringalong_Applynow{margin:60px 0px 40px;}
+.bringalong_Applynow .panel-flat{padding:30px 0px;}
+.bringalong_Applynow .panel-title{text-align: center;font-size:24px;line-height:32px;color:#333;}
+.bringalong_Applynow .form-group1{width:50%;float:left;}
+.bringalong_Applynow label{padding-bottom:3px;}
+.bringalong_Applynow .btn-primary{font-size:15px;}
+.bringalong_Applynow h4{font-size:18px;font-weight:500;color:#4768ba;text-transform:uppercase;}
+/*.bringalong_Applynow .inputfile{font-size:15px;background:#2196f3;border-radius:3px;color:#fff;padding:5px 10px;}*/
+.tutor-wrap .navbar{-webkit-box-shadow: none;box-shadow: none;}
+.bringalong_Applynow .bg-pink-400{background:#2196f3;color:#fff;}
+.subject_container{padding:20px 0px 10px;}
+.bringalong_Applynow .uploader{margin-top:15px;}
+
+.tutor_subject{margin-top:5px;}
+
+
+
+/*Tutor Traning*/
+.tutortraning_top{background-color:#4768ba;color:#fff;padding:100px 0px;position:relative;}
+.ttutortraning_top h2{font-weight: 500;}
+
+.teachertraning_wrap{padding:20px 20px 0px;}
+.teachertraning_wrap .sidebar-main{z-index:9;}
+
+.teachertraning_wrap .graybg{background:rgba(240,240,240,0.7);}
+.teachertraning_wrap .whitebg{background:#ffffff;}
+.teachertraning_sub .container h2{color:#4768ba;font-weight:500;font-size:30px;margin-top:40px;}
+
+.teachertraning_sub .container .fa-check{color:#2196F3;font-size:20px;height:42px;width:30px;position:absolute;font-size:25px;margin-top:2px;}
+.teachertraning_sub .container p{font-size:18px;padding-left:34px;margin:5px 0px 25px;max-width:500px;line-height:24px;}
+.teachertraning_sub_container{padding:70px 0px;}
+
+.teachertraning_sub .container .completetraning p{max-width:100%;}
+.teachertraning_sub .container .completetraning h2{margin-top:0px;}
+.completetraning label{color:#4768ba;font-size:20px;font-weight:500;text-transform:uppercase;margin-top: 10px;display:block;}
+.completetraning textarea{box-shadow:0px 0px 3px #bbb;background:#fff;margin-top:13px;padding-left:10px;}
+.uploadphoto_head{color:#4768ba;font-size:20px;font-weight:500;text-transform:uppercase;margin-bottom: 10px;display:block;}
+.uploadphoto1{margin:0px 0px 10px;}
+.endtraning_btn{margin-top:20px;}
+.FutureTeacher2{margin-top:20px;margin-bottom:20px;}
+
+.readytostart{background:#2196f3;padding:80px 0px;text-align:center;color:#fff;}
+.readytostart h3{font-size:30px;font-weight:500;color:#fff;margin-bottom:30px;}
+.readytostart a.btn{background:#FFA726;font-size:15px;}
+.howitworks1-font5{margin-top:9px;font-size:15px;text-align:right;max-width:474px;margin:5px auto 0px;}
+.howitwork1_btnseperater{padding-left:10px;padding-right:10px;}
+
+.testimonial_sub .comma{width:20px;position:absolute;font-size:40px;line-height: 38px;}
+.testimonial_sub .comma2{width:25px;position:absolute;font-size:40px;line-height: 38px;padding-left:9px;}
+.testimonial_sub .container p{padding-left:24px;}
+.strengthindicator{margin-top:7px;margin-bottom:0px !important;}
+.strengthindicator label{margin-top:7px;}
+
+.howitwork_sub .container p{margin:5px 0px 16px;}
+.howitwork_sub .container .new{margin-top:30px;}
+.howitwork_sub .container h2.onlinehead_head{margin-top:-20px;}
+
+.howitwork_sub .container p strong{font-weight:500;}
+/* .howitwork_sub .container h4{font-size:20px;font-weight:500;} */
+
+.howitwork_sub .container h2.selectdesired_head{margin-top:10px;}
+.completeappointment_img{margin-top:60px;}
+
+.howitwork_sub .container h2.repeateverything_head{margin-top:0px;}
+
+.compare23{position:relative;}
+.howitwork_sub .container .fa{color:#2196F3;font-size:20px;height:42px;width:30px;position:absolute;font-size:25px;margin-top:2px;}
+.howitwork_sub .container .icon-cog52{color:#2196F3;font-size:20px;height:42px;width:30px;position:absolute;font-size:25px;margin-top:6px;}
+.howitwork_sub .container .new .fa-lightbulb-o{font-size: 30px;}
+.howitwork_sub .container .fa-smile-o{color:#009b4a;}
+.howitwork_sub .container .fa-lightbulb-o{color:#ddc000;}
+
+.faqs_sub .panel-group-control.panel-group-control-right .panel-title > a {color:#4768ba;font-size:18px;}
+.faqs_sub .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {font-size:18px;line-height:26px;}
+.faqs_sub .panel-body p{font-size:18px;line-height:26px;}
+
+.faqs_sub{padding:60px 0px;}
+
+.faqs_sub .faqs_head{padding-top:0px;padding-bottom:25px;}
+
+
+.contact_container h2{color:#4768ba;font-size:28px;font-weight:500;margin-bottom:24px;text-align:center;}
+.contactinfo_sub{position:relative;}
+.contact_container h3{font-weight:500;font-size:25px;text-align:center;margin-top:5px;}
+.contact_container .contacticon{font-size:20px;color:#2196f3;position:absolute;height:30px;width:30px;line-height:30px;}
+.contact_container .fa-whatsapp{font-size:24px;}
+.contact_container .contactinfo_sub{margin-bottom:22px;max-width:300px;margin-left:auto;margin-right:auto;}
+.contactinfo_content{padding-left:40px;}
+.contact_container .contactinfo_content a{font-weight:500;font-size:20px;}
+.contact_container .contactinfo_content span{display:block;color:#333;font-size: 14px;
+    margin-top: 8px;}
+.contact_container .contactus_content1{margin-bottom:25px;text-align: center;}
+.contact_container .panel{min-height:505px;}
+
+.contactsubmit_btn button{margin-bottom:20px;}
+.contactinfo_panel{padding:15px;}
+
+.map_container .panel-heading{padding-top:0px;}
+.map_container .panel-heading .panel-title{color:#252525;text-align:center;font-size:30px;}
+.map_container .panel{margin-bottom:0px;}
+.map_container .panel-body{padding:0px;}
+.contact_container .fa-volume-control-phone{font-size:24px;line-height:34px;}
+
+.tutorregistration_top h1{font-size: 34px;}
+.tutorregistration_top h2{font-size: 25px;}
+
+.tutortraning_top h1{font-size: 34px;}
+.tutortraning_top h2{font-size: 25px;}
+
+.allappointment_container .tabbable .nav{padding:0;}
+.uploadcv_sub3{padding-left:20px;}
+
+.membership_style .dataTables_wrapper .datatable-footer .dataTables_info,.membership_style .dataTables_wrapper .datatable-footer .dataTables_paginate {display:block;}
+
+.endtraning_btn button{font-size:18px;white-space:initial;}
+
+.membership_style table thead,.membership_style table thead tr{background: #4767ba;}
+
+/* .listofappointment_teachertable thead th:last-child,.listofappointment_teachertable tbody td:last-child{display:none;} */
+.listofappointment_teachertable tbody td .bookedstudent {padding-left:25px;}
+.listofappointment_contentwrapper .panel-flat .panel-heading h2.Past_Session_Head {width: 300px;}
+.listofappointment_contentwrapper .panel-flat {overflow-x: hidden;}
+.listapp_totalhr{color:#333;margin:0px;padding:10px 0px 10px;background:#f0f0f0;font-size:24px;font-weight:bold;text-transform: uppercase;}
+.listofappointment_contentwrapper table.studntbookedinner tr td{border:0px;}
+.listofappointment_contentwrapper table.listofappointment_teachertable thead,.listofappointment_contentwrapper table.listofappointment_teachertable thead tr{background:#4768ba;}
+/* .listofappointment_contentwrapper .datatable-scroll .dataTables_info,.listofappointment_contentwrapper .datatable-scroll .dataTables_paginate {display: block;} */
+.listofappointment_contentwrapper .datatable-scroll .datatable-header{display:none;}
+.appointmentllisting_table31 .fc-toolbar .fc-left > .fc-today-button{display:none;}
+.listofappointment_contentwrapper td span.label-success,.listofappointment_contentwrapper td span.label-warning{font-size:12px;padding:4px 12px;}
+.listofappointment_contentwrapper .datatable-scroll{overflow-x: auto;min-height: 589px;}
+.listofappointment_contentwrapper .datatable-scroll .datatable-scroll{overflow-x: auto;min-height:auto;}
+.listofappointment_contentwrapper .fullcalendar-agenda{padding: 0px 15px 20px;}
+.listofappointment_contentwrapper .dashbord_allpast2 .panel-flat{min-height:500px;}
+
+
+.dashboard_teacher_container .studntbookedinner table{width:100%;}
+.dashboard_teacher_container tbody td .bookedstudent {padding-left: 10px;}
+.bookedstudent_wrapteacherdashboard{float:right;width:130px;}
+.dashboard_teacher_containerhead{background: #4768ba;}
+.dashboard_teacher_containerhead td{font-weight:bold;background: #4768ba;
+    color: #fff;    font-weight: 600;text-transform: uppercase;font-size:17px;}
+    .dashboard_teacher_containerhead td .bookedstudent {font-size:17px;}
+
+    .teachertabdashboard_all tbody td .bookedstudent {padding-left: 10px;display: inline-block;}
+    .teachertabdashboard_all tbody td .bookedstudent_sub {padding-left: 10px;}
+    .teachertabdashboard_all thead tr th:nth-child(3){padding-left:29px;width: 200px;}
+    .teachertabdashboard_all thead tr th:nth-child(2) {width: 200px;padding-left:20px !important;text-align: center;}
+    .teachertabdashboard_all tbody tr td:nth-child(2){width:200px !important;}
+    .teachertabdashboard_all tbody tr td:nth-child(3){width:200px;}
+    .teachertabdashboard_all td span.label-warning{margin-left:20px;}
+
+    .teachertabdashboard_all thead tr th:nth-child(2){padding-left:58px !important;}
+
+ 
+    .teachersdashboard_calendar .fc-toolbar .fc-left {float: none;margin-left: auto;margin-right: auto;width: 255px;}
+    .teachersdashboard_calendar .fc-left > .fc-today-button {display: none;}
+    .teachersdashboard_calendar .fc-toolbar .fc-center {margin-right:auto !important;margin-left:auto !important;float:none;display:block;position:relative;width:140px;}
+    .teachersdashboard_calendar .fc-toolbar .fc-center h2{font-weight:bold;margin-top:-30px;width:140px;font-size:18px;}
+    .teachersdashboard_calendar .fc-left .fc-button-group .fc-next-button {margin:0 0 0 170px;}
+
+.teachersdashboard_calendar .teacherlistingcolor{width:305px;margin:0px auto 15px;}
+.teachersdashboard_calendar .teacherlistingsub:last-child{width:80px;}
+    
+.teachersdashboard_calendar .fc-scroller .fc-time-grid table tbody tr {height:39px;border:inherit !important;}
+.teachersdashboard_calendar .fc-scroller .fc-time-grid table tbody tr .fc-widget-content {background: rgba(235,235,235,0.7);border-color: #bbb;}
+.teachersdashboard_calendar .fc-scroller .fc-time-grid table tbody tr .fc-axis.fc-time{background: rgba(255,255,255,1);}
+.teachersdashboard_calendar .fc-scroller .fc-time-grid table tbody tr .fc-event-container [style*="rgb(255, 255, 255)"]{border-radius:0px;margin:2px 0px 0px;border:0px;}
+
+.teacherevent .fc-time-grid-event .fc-content {height:auto;max-height:100px;}
+
+.teachertraning_sub_container .work1-video_sub{box-sizing: border-box;
+    background: url(../images/Bildschirm-Hintergrund-Nachhilfe-Erklärvideo-Easy-Tutor-1.png) center center no-repeat;background-size: 650px 323px;height: 323px;
+    width: 650px;overflow:hidden;    margin-top: 37px;}
+.teachertraning_sub_container iframe.work1-video {top: 0;left: 0;width:352px;height: 215px;margin-left:auto;margin-right:auto;display:block;padding-top:17px;}
+   
+.work1-lessonvideo-left{width:54%;float:left;}
+.work1-lessoncontent-right{width:46%;float:right;}
+.howitwork_sub .container p strong a{color:#4768ba;font-weight:normal;}
+.howitwork_sub .container p strong a:hover{text-decoration:underline;}
+.perfectteacher_img21{margin-top: 4%;max-width: 460px;}
+.howitworks1_suitable{margin-top:9%;}
+
+.howitwoks1_booking45{margin-top:20%;}
+.howitwork1-head56{margin-bottom:0px !important;}
+.howitwork1-content56{margin-bottom:20px !important;}
+.howitwork1_online29{margin-top:6%;}
+.howitwork1_triallesson{border-bottom:5px solid #fc9b0d;color:#fff;}
+.howitwork1_triallesson:hover{background:#FFA726 !important;border-bottom:5px solid #FFA726;color:#fff;}
+
+
+.howitworks2_wrap .container h2.onlinehead_head{margin-bottom:30px;}
+.howitwork1_bannercontent{font-size: 16px !important;line-height: 24px !important;padding-top: 10px;}
+.typicaltutorial_img img{border-radius:10px;}
+.typicaltutorial_img figurecaption{text-align:center;padding-top:5px;display:block;}
+.Professionalonline_content23{padding-left:5%;}
+.howitwork_sub .container .Professionalonline_content23 h3{font-size:18px;margin-bottom:5px;font-weight:700;}
+.howitwork_sub .container .Professionalonline_content23 p{margin:0px;padding:0px;max-width:100%;font-size:16px;}
+.howitwork_sub .container .Professionalonline_content23 .Professionalonline_subhead23{margin-top:20px;}
+.howitwork_sub .container .Professionalonline_content23 p a{color:#4768ba;}
+.howitwork_sub .container .Professionalonline_content23 p a:hover{text-decoration:underline;}
+
+.howitworks2_wrap .howitwork_sub .container p{margin:0px;max-width:100%;font-size:16px;}
+.howitworks2_wrap .howitwork_sub .container p.focus_content23{margin-bottom:25px;}
+.howitworks2_wrap .howitwork_sub .container .howwork_content p{font-size:18px;margin-bottom:4px;}
+
+.Flexibletime_img img{border-radius:50%;}
+.Flexibletime_content23{padding-left:0%;padding-right:2%;}
+.teachertraning_wrap .bluebg{background:-webkit-linear-gradient(left,#4768ba 0%,#009aee 100%);background:linear-gradient(left,#4768ba 0%,#009aee 100%);
+    background:-moz-linear-gradient(left,#4768ba 0%,#009aee 100%);margin-left:-20px;margin-right: -20px;color:white;}
+.bluebg .container h2.onlinehead_head{color:#fff;}
+
+.howitworks3_wrap .howitwork_sub .container p strong{font-weight:700;}
+.howitwork_readytostart h3{font-weight:normal; font-size: 26px; margin-bottom:20px;}
+.howitwork_readytostart h3.create_head_read{margin-bottom:45px;}
+.howitwork3_list{counter-reset: listing;margin-left:2%;}
+.howitwork3_list li::before {counter-increment: listing;content: "" counter(listing) ". ";width:20px;height:20px;line-height:20px;}
+.howitwork3_list li{line-height:21px;padding-bottom:5px;}
+.howitwork_readytostart a.btn{padding:13px 22px;font-size:16px;}
+.howitwork_readytostart .btn i.icon-gift{font-size: 20px;margin-top: -7px;margin-right: 3px;}
+.howitwork_readytostart a.btn.choose_triallesson{background: transparent;border: 2px solid #fff;color: #fff;}
+.howitwork_readytostart a.btn.howitwork1_triallesson:hover .howitwork1_triallesson:before{background:rgba(0,0,0,0.7);position: relative;content:'';top:0px;right:0px;}
+
+.Faq_tabcon .accordion {background-color: #f2f5f9;color: #4768ba;cursor: pointer;padding: 18px 28px 18px 18px;font-size:20px;width: 100%;border: none;text-align: left;outline: none;transition: 0.4s;position:relative; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);}
+.Faq_tabcon .panel p{padding:15px 0px 0px;}
+.Faq_tabcon .panel p:last-child{padding-bottom:17px;}
+.Faq_tabcon .panel p a,.Faq_tabcon .panel a{color: #4768ba;display:inline;max-width:100%;}
+.Faq_tabcon .panel p a:hover,.Faq_tabcon .panel a:hover{text-decoration:underline;}
+.Faq_tabcon .active,.Faq_tabcon .accordion:hover {color:#009aee;}
+.Faq_tabcon .accordion:after {content: '\002B';color: #4768ba;font-weight: bold;float: right;margin-left: 5px;float:right;right:15px;position:absolute;height: 100%;display: flex;flex-direction: row;align-items: center;top: 0px;}
+.Faq_tabcon .active:after {content: "\2212";}
+.Faq_tabcon .panel {padding: 0px 15px;background-color: #fff;max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
+.faq_listing{list-style-type:disc;margin-top:7px;}
+.faq_listing li{padding-bottom:7px;}
+.Faq_tabcon .panel .faqpanel{padding:15px 15px;}
+.technical_container36{margin-top:40px;}
+
+.howitwork3_contact{min-width:250px;text-align:center;}
+h2.onlineheading59:before{display:none;}
+.cancellation_wrap .container .content h2.onlineheading59{font-size:28px;}
+.map-container iframe{margin-bottom:-4px;}
+.map-container {height:auto;}
+
+.abouteasytutor_content3{font-size:20px !important;}
+.howitwork_sub .container .abouteasytutor_contentsub h3{font-size:22px;font-weight:500;margin-bottom:25px;}
+.howitwork_sub .container .abouteasytutor_contentsub p{margin-bottom:25px;}
+.howitwork_sub .container .abouteasytutor_contentsub p.italic_style{font-style:italic;font-size:18px;}
+.abouteasytutor_img img{margin-top:35%;}
+.abouteasytutor_img1 img{margin-top:31%;}
+
+.affiliateprogram_banner{background:url(../images/Affiliate-Bildung-Nachhilfe.jpg) no-repeat;background-size:cover;background-position: center center;
+    background-attachment: scroll;position: relative;padding:160px 0px;}
+.affiliateprogram_banner:after {background-color: #3a3f5e;background-color: rgba(58,63,94,.7);content: '';display: block;position: absolute;
+    top: 0;right: 0;bottom: 0;left: 0;z-index: 0;}
+.affiliateprogram_banner .container{color:#fff;position:relative;z-index:1;}
+.affiliateprogram_banner .container h1{font-size:36px;margin-bottom:3%;}
+.affiliateprogram_banner .container p{font-size:18px;}
+
+.affiliateprogram_container .container h2{font-size:24px;color:#444;font-weight: normal;padding-bottom:20px;}
+.affiliateprogram_container .container h2.grow_head6{margin-top:0px;}
+.affiliateprogram_container .container h2.onlinehead_head{font-size:27px;margin-bottom:22px;padding-bottom:25px;}
+.affiliateprogram_container .container h2.onlinehead_head:after{content:'';position:absolute;border-top: 2px solid #428aca;width: 12%;height:0px;display: block;margin-top:22px;}
+.affiliateprogram_container .container .onlinehead_content27{margin-bottom:18px;line-height:22px;}
+.affiliateprogram_container .container .onlinehead_content28{margin-top:20px;}
+.affiliateprogram_sub6{max-width:1000px;background:#ccc;}
+.affiliateprogram_container .signupnow{max-width:230px;background:#4768ba;border-bottom:5px solid #375bb6;font-size:16px;color:#fff;margin:50px auto 40px;
+    display:block;padding-top:11px;padding-bottom:11px;}
+    .affiliateprogram_container .signupnow:hover{background:#375bb6;border-bottom:5px solid #2e53b1;}
+.affiliateprogram_container .contactperson_content1{margin-bottom: 22px;}
+.affiliateprogram_container .contactperson_content2{line-height:23px;}
+.affiliateprogram_container .contactperson_content2 strong{font-weight:bold;}
+
+.effectivestudent_wrap .container p{padding-left:0px;max-width:100%;}
+.effectivechoose_btn{background-color:#426ab6;color:#fff;font-size:15px;padding:10px 15px;max-width:250px;margin-left:auto;margin-right:auto;display:block;margin-top:20px;}
+.effectivechoose_btn:hover{background-color:#3c69bf;color:#fff;}
+.effectivestudent_wrap .work1-video_sub{margin-top:0px;}
+
+.effectivestudent_wrap .container .Professionalonline_content23 p.effectivestudent_para{margin-bottom:15px;}
+.effectivestudent_wrap .effectivestudent_tutoring .container h2{margin-top:0px;font-size:27px;margin-bottom: 5px;}
+
+.howitwork_leftsub{float:left;}
+.howitwork_rightsub{float:right;}
+.massimocancellara_sub{margin-top:30px;}
+.typicaltutoring_img6{margin-top:26%;}
+.typicaltutoring_img7{margin-top:12%;}
+
+.contact_text31{text-align:center;margin-top:40px;}
+.readytostart_contact1{background: -webkit-linear-gradient(top,#128fdc 0%,#019dea 100%);background: linear-gradient(top,#128fdc 0%,#019dea 100%);
+    background: -moz-linear-gradient(top,#128fdc 0%,#019dea 100%);}
+
+.suitable_banner p{font-size:17px;line-height:24px;}
+.suitable_banner p strong{font-weight:bold;}
+
+.teachertraning_sub .container h2.tuition_head26{margin-top:0px;}
+
+.tutoringcertified_sub{margin-top:40px;}
+.howitwork_sub .container .tutoringcertified_sub p{font-size:16px;}
+
+
+/* .pricingcomparison_table thead tr th:last-child{position:absolute;} */
+.pricingcomparison_table tbody tr td span.font-red{color:red;}
+.pricingcomparison_table tbody tr td span.font-green{color:green;}
+.tutoringprice_logo{width:100%;text-align:right;}
+.tutoringprice_logo img{display: inline-block;margin-right:0.6%;margin-bottom:-47px;}
+.tutoringprice_logo3 img{margin-right:7.4%;}
+.tutoringprice_logo4 img{margin-right:15.3%;}
+.pricingcomparison_table thead tr th .tutoringprice_logo2{display:none;}
+.pricingcomparison_table thead tr th:first-child,.pricingcomparison_table tbody tr td:first-child{background:#f2f2f2;box-shadow:0px 0px 1px #999;}
+.pricingcomparison_table_wrap::-webkit-scrollbar {-webkit-appearance:none;height:12px;}
+.pricingcomparison_table_wrap::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);background-color: #f8f8f8;}
+.pricingcomparison_table_wrap::-webkit-scrollbar-thumb{background-color: #c1c1c1;}
+.teachertraning_sub .container h2.pricingcomparison_table_head{margin-bottom:5px !important;}
+.pricingcomparison_table_bottominfo{width:100%;text-align:center;font-size:24px;margin:10px auto 40px;}
+.pricingcomparison_table_bottominfo strong{font-weight:bold;}
+.equipped_data_border span{display:block;border-bottom:1px dashed #bbb;padding-bottom:10px;margin-bottom:9px;}
+.teachertraning_sub .blue_teachertraning_sub h2{color:#fff;margin-top:0px;}
+.teachertraning_sub .blue_teachertraning_sub .pricingcomparison_table_bottominfo{margin-bottom:0px;}
+
+.leftprivatelesson_list{margin-right:3%;}
+.leftprivatelesson_list li{padding-bottom:10px;font-size:20px;text-align:right;}
+.leftprivatelesson_list li .icon-cross3{font-size:20px;margin-left:10px;}
+.leftprivatelesson_list i.icon-cross3{color:#ff1d25;font-size:34px;}
+.rightprivatelesson_list{margin-left:3%;}
+.rightprivatelesson_list li{padding-bottom:10px;font-size:20px;text-align:left;}
+.rightprivatelesson_list li i.icon-checkmark4,.rightprivatelesson_list li i.icon-stamp{color:#009b4a;font-size:24px;line-height:34px;margin-right:10px;}
+.teachertraning_sub .teachertraning_sub_container .rightprivatelesson_list li a{color:#4768ba;}
+.teachertraning_sub .teachertraning_sub_container .rightprivatelesson_list li a:hover{color:#2196F3;}
+
+.priceonline_comparison{margin-top:40px;}
+.priceonline_comparison i.icon-trophy2{position:absolute;height:32px;width:30px;line-height:32px;font-size:32px;color:#4768ba;top:20px;}
+.howitwork_sub .container .priceonline_comparison i.fa-gift{position:absolute;height:32px;width:30px;line-height:32px;font-size:32px;margin-top:-3px;top:20px;color:#4768ba;}
+.priceonline_comparisoncontent{padding-left:45px;position:relative;font-size:20px;}
+.priceonline_comparison .panel{padding:20px;min-height:90px;} 
+
+.priceonlinetutoring_wrap .whitebg{margin-left:-20px;margin-right:-20px;padding:115px 0px 70px;}
+.priceonlinetutoring_wrap .whitebg .price_sub_container{width:20%;float:left;padding-right:20px;}
+.priceonlinetutoring_wrap .whitebg .price_sub_container:first-child,.priceonlinetutoring_wrap .whitebg .price_sub_container:last-child{padding-right:0px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .panel{background:#f5f5f5;margin-top:-34px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .pricing-first-container2{margin-top:0px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .pricing-table-price{margin-left:-20px;margin-right:-20px;color:#fff;-webkit-box-shadow: 100px 0 100px -100px #8ac4ff inset, -100px 0 100px -100px #8ac4ff inset;
+    box-shadow: 100px 0 100px -100px #8ac4ff inset, -100px 0 100px -100px #8ac4ff inset;background: #0078f0;}
+
+.priceonlinetutoring_wrap .whitebg .pricing-table .ribbon {position: relative;padding: 5px 0;left: 39px;top: 0px;width: 100px;background-color: #f00;color: #fff;font-size:15px;z-index:9;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .pricing-table-price-yellow{-webkit-box-shadow: 100px 0 100px -100px #f1dba2 inset, -100px 0 100px -100px #f1dba2 inset;
+    box-shadow: 100px 0 100px -100px #f1dba2 inset, -100px 0 100px -100px #f1dba2 inset;background: #daa520;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .prices_list_footer,.priceonlinetutoring_wrap .whitebg .pricing-table .prices_list_footer_yellow{margin-left: -20px;margin-right: -20px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .prices_list_footer a{width:100%;border-radius:0px;color:#fff;-webkit-box-shadow: 100px 0 100px -100px #8ac4ff inset, -100px 0 100px -100px #8ac4ff inset;
+    box-shadow: 100px 0 100px -100px #8ac4ff inset, -100px 0 100px -100px #8ac4ff inset;background: #0078f0; font-size: 20px;padding-top: 15px;padding-bottom: 15px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .prices_list_footer_yellow a{width:100%;border-radius:0px;color:#fff;-webkit-box-shadow: 100px 0 100px -100px #f1dba2 inset, -100px 0 100px -100px #f1dba2 inset;
+    box-shadow: 100px 0 100px -100px #f1dba2 inset, -100px 0 100px -100px #f1dba2 inset;background: #daa520;font-size: 20px;padding-top: 15px;padding-bottom: 15px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .first_content_price{margin-top:43.5%;}
+.priceonlinetutoring_wrap .whitebg .price_sub_container .panel-body{padding-bottom:0px; padding-top: 10px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .first_content_price ul li:first-child,.priceonlinetutoring_wrap .whitebg .pricing-table .first_content_price ul li:last-child{border-bottom:0px;height:57px;}
+.priceonlinetutoring_wrap .whitebg .price_sub_container .panel-body h4{height:68px;margin-bottom: 10px;font-size:30px;line-height:35px;}
+.priceonlinetutoring_wrap .whitebg .price_sub_container .panel-body h4.pricing-first-head2{height:34px;}
+
+.contact1info_panel .contactinfo_sub .contactinfo_content a{color:#166dba;}
+.contact1info_panel .contactinfo_sub .contactinfo_content a:hover{color:#2196f3;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .pricing-table-price span.uro{font-size:18px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .pricing-table-price span.text-small{font-size:15px;display:block;padding-bottom:8px;}
+
+.priceonlinetutoring_wrap .pricing-table ul > li {font-size:15px;line-height:22px;}
+.priceonlinetutoring_wrap .pricing-table ul > li a{color:#4768ba;font-weight:bold;}
+.priceonlinetutoring_wrap .pricing-table ul > li strong{font-weight:bold;}
+.priceonlinetutoring_wrap .pricing-table ul > li strong.green{color:#009B4A;}
+.priceonlinetutoring_wrap .pricing-table ul > li i.icon-notification2{font-size:14px;margin-top:-8px;}
+.priceonlinetutoring_wrap .content-group li:first-child{min-height:75px;}
+.priceonlinetutoring_wrap .first_content_price .content-group li:first-child{min-height:auto;}
+
+.priceonlinetutoring_wrap .pricing-table ul > li.satisfation{min-height:75px;}
+.priceonlinetutoring_wrap .pricing-table ul > li.satisfation i.icon-cancel-square2,.priceonlinetutoring_wrap .pricing-table ul > li.satisfation i.icon-checkbox-checked2,.priceonlinetutoring_wrap .pricing-table ul > li.graphicstable i.icon-cancel-square2,.priceonlinetutoring_wrap .pricing-table ul > li.graphicstable i.icon-checkbox-checked2{padding-top:14px;}
+.priceonlinetutoring_wrap .pricing-table ul > li.graphicstable{min-height:75px;}
+
+.priceonlinetutoring_wrap .price_sub_container .panel{transform: translate(0) scale(1);position:relative;transition: all 0.3s ease;}
+.priceonlinetutoring_wrap .price_sub_container .panel:hover{-webkit-box-shadow: 0 0 6px #666;box-shadow: 0 0 6px #666;transform: translate(0) scale(1.03);}
+.pricesonlinetutoring_bottomcontent{margin-top:20px;}
+.howitworks2_wrap .howitwork_sub .container .pricesonlinetutoring_bottomcontent p{margin-bottom:10px;padding-left:0px;}
+
+@media screen and (max-width:1800px){
+    .listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic thead tr th:nth-child(2){padding-left:150px;}
+    .listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic thead tr th:first-child,.listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic tbody tr td:first-child{display:none;}
+
+.listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic table thead tr th:first-child,.listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic table tbody tr td:first-child{display:block;}
+.listofappointment_contentwrapper .dashbord_allpast2 .studntbookedinner{width:288px;margin-left:50px;}
+.listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic tbody tr td:nth-child(2){width:400px;}
+.listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic table tbody tr td:nth-child(2){width:auto;}
+.listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic tbody tr td:nth-child(3){width:60px;}
+.listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic table tbody tr td:nth-child(3){width:auto;}
+}
+
+@media screen and (max-width:1639px){
+    .listofappointment_contentwrapper .datatable-scroll {min-height: 589px;}
+    .listofappointment_contentwrapper .datatable-scroll .datatable-scroll{overflow-x: auto;min-height:auto;}
+    }
+
+@media screen and (max-width:1640px){
+    .listofappointment_contentwrapper .dashbord_allpast2 .studntbookedinner {width:220px;margin-left:20px;}
+    .listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic tbody tr td:nth-child(2) {width: 200px;}
+    .listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic thead tr th:nth-child(3) {padding-left:10px;padding-left:10px;}
+    .listofappointment_contentwrapper .recentlistofappointment36 table.datatable-basic thead tr th:nth-child(2),.listofappointment_contentwrapper .recentlistofappointment36 table.datatable-basic tbody tr td:nth-child(2){width:300px;}
+    .listofappointment_contentwrapper .recentlistofappointment36 table.datatable-basic .studntbookedinner{width:290px;margin-left: 40px;}
+    .studntbookedinner tr td img {margin-top: 2px;}
+    .listofappointment_contentwrapper .dashbord_allpast2 table.datatable-basic thead tr th:nth-child(2){text-align:center;padding-left:40px;}
+
+    .teachertabdashboard_all thead tr th:nth-child(2){padding-left:58px !important;}
+
+    .teachertabdashboard_all thead tr th:nth-child(3){padding-left:29px !important;}
+
+}
+
+@media screen and (max-width:1620px){
+.tutorregistration_middle .panel-body{min-height: 207px;}
+.listofappointment_contentwrapper .panel-heading .panel_view {top: auto; right: auto; margin-top: 15px;display: block;text-align: center;position:relative;}
+.listofappointment_contentwrapper .panel-heading{padding-bottom:6px;}
+.listofappointment_contentwrapper .panel-flat .panel-heading h2.Past_Session_Head {width:100%;padding-right:0px;}
+.listofappointment_contentwrapper .datatable-scroll {min-height: 592px;}
+}
+
+@media screen and (max-width:1600px){
+.teacher_listofappoinment{height:510px;}
+.tutorregistration_top::before{left:3%;top:0%;}
+.tutorregistration_top::after{right:3%;top:0%;}
+.affiliateprogram_banner {padding: 135px 0px;}
+}
+
+@media screen and (max-width:1530px){
+.teachertabdashboard_all tbody tr td:nth-child(3){width:170px;}
+.teachertabdashboard_all thead tr th:nth-child(3){width:170px;}
+.teachertabdashboard_all tbody tr td:nth-child(4){padding-left:0px;}
+}
+
+@media screen and (max-width:1500px){
+.listapp_totalhr{font-size:20px;}
+.listofappointment_contentwrapper .datatable-scroll {min-height:587px;}
+}
+
+@media screen and (max-width:1430px){
+    .listofappointment_contentwrapper .dashbord_allpast2 .table tbody tr td,
+    .listofappointment_contentwrapper .dashbord_allpast2 .table thead tr th {padding-left: 10px;padding-right: 10px;}
+    .listofappointment_contentwrapper .dashbord_allpast2 .studntbookedinner {margin-left:10px;}
+    .listofappointment_contentwrapper .recentlistofappointment36 table.datatable-basic .studntbookedinner{width:290px;margin-left:20px;}
+    
+    .teachertabdashboard_all tr td:nth-child(4){text-align:center;}
+    .teachertabdashboard_all td span.label-warning {margin-left:auto;margin-right:auto;margin-top:7px;}
+.teachertabdashboard_all td span.label-success {display: block;width:65px;margin-left:auto;margin-right:auto;}
+
+.teachertabdashboard_all thead tr th:nth-child(3) {padding-left: 20px !important;}
+.teachertabdashboard_all thead tr th:nth-child(2) {padding-left: 18px !important;}
+}
+
+@media screen and (max-width:1400px){
+    .tutorregistration_top{padding:70px 0px 90px;}
+    .tutorregistration_top::before{height:328px;width:180px;}
+    .tutorregistration_top::after{height:298px;width:160px;}
+    .tutorregistration_top p{line-height:26px;font-size:19px;}
+    .tutorregistration_top h2{font-size: 32px;}
+    .tutorregistration_top h4{margin: 16px 0px 13px;font-size: 24px;}
+
+    .tutortraning_top{padding:70px 0px 90px;}
+    .tutortraning_top p{line-height:26px;font-size:19px;}
+    .tutortraning_top h2{font-size: 32px;}
+    .tutortraning_top h4{margin: 16px 0px 13px;font-size: 24px;}
+
+    .appointmentofweek .fc-time-grid .fc-event, .fc-time-grid .fc-bgevent{min-height:80px;text-align:center;}
+    .fc-event-container .start{margin-left:auto;margin-right:auto;display:block;}
+    .fc-event-container .cancel{margin-left:auto;margin-right:auto;display:block;margin-top:4px;}
+    .fc-day-grid-event .fc-title{text-align:center;display: block;}
+    .tutorregistration_middle{margin-top:40px;}
+    .lookingfortutoring{margin:30px auto 40px}
+    .bringalong_container{padding:60px 0px;}
+    .teachertraning_sub_container {padding: 60px 0px;}
+    .faqs_sub{padding:50px 0px;}
+    .tutorregistration_top h1{font-size: 32px;}
+.tutorregistration_top h2{font-size: 24px;}
+
+.tutortraning_top h1{font-size: 32px;}
+.tutortraning_top h2{font-size: 24px;}
+
+.teachersdashboard_calendar .fc-scroller .fc-event-container .fc-time-grid-event{margin-top:1px;}
+.teachersdashboard_calendar .fc-scroller .fc-time-grid table tbody tr {height: 50px;}
+.abouteasytutor_img img{max-width:250px;margin-top:47%;}
+.abouteasytutor_img1 img{max-width:250px;margin-top:40%;}
+.affiliateprogram_banner {padding: 110px 0px;}
+.massimocancellara_sub{margin-top:25px;}
+.contact_text31{margin-top:30px;}
+.suitable_banner p{font-size:17px;}
+} 
+
+@media screen and (max-width:1350px){
+.teachertraning_sub .container h2{margin-top:0px;}
+.howitwork_sub .container h2.onlinehead_head {margin-top: -20px;}
+.testimonial_sub .container h2{margin-top:40px;}
+}
+
+@media screen and (max-width:1320px){
+.teachertraning_sub .container{width:90%;margin:0px auto;}
+.teachertraning_sub_container .work1-video_sub {background-size: 550px 274px;height: 274px;width: 550px;}
+.teachertraning_sub_container iframe.work1-video{width:300px;height:183px;padding-top:14px;}
+.priceonlinetutoring_wrap .pricing-table ul > li {font-size: 13px;line-height: 20px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .first_content_price {margin-top: 47.7%;}
+}
+
+@media screen and (max-width: 1299px){
+.allappointment_container tbody tr td, .allappointment_container thead th {height: auto;}
+.teacher_listofappoinment{height:440px;}
+.tutorregistration_top{padding:70px 0px 90px;}
+.tutorregistration_top p{max-width:900px;}
+.tutorregistration_top::before{height:274px;width:150px;left:2%;}
+.tutorregistration_top::after{height:279px;width:150px;right:2%;}
+
+.tutortraning_top{padding:70px 0px 90px;}
+.tutortraning_top p{max-width:900px;}
+
+.tutorregistration_middle .panel-body{min-height: 190px;}
+
+
+.tutortraning_top{padding:80px 0px;}
+.teachertraning_sub_container {padding: 50px 0px;}
+
+.listofappointment_contentwrapper table.listofappointment_teachertable tbody tr td,.listofappointment_contentwrapper table.listofappointment_teachertable tfoot td,.listofappointment_contentwrapper table.listofappointment_teachertable thead th {height:auto;}
+.typicaltutoring_img6 {margin-top: 36%;}
+.typicaltutoring_img7{margin-top:20%;}
+.tutoringprice_logo img {max-width: 120px;}
+.pricingcomparison_table thead tr th:last-child{width:135px;}
+.tutoringprice_logo3 img,.tutoringprice_logo4 img {margin-right: 0.5%;}
+}
+
+@media screen and (max-width:1285px){
+.listofappointment_contentwrapper .datatable-scroll {min-height:624px;}
+}
+
+@media screen and (max-width:1250px){
+    .listofappointment_contentwrapper table.listofappointment_teachertable tbody tr td:first-child {width:auto;}
+}
+
+@media screen and (max-width:1229px){
+    .listofappointment_contentwrapper .datatable-scroll {min-height:624px;}
+    .listofappointment_contentwrapper .datatable-scroll .datatable-scroll{overflow-x: auto;min-height:auto;}
+}
+
+@media screen and (max-width:1176px){
+    .listofappointment_contentwrapper .datatable-scroll {min-height:624px;}
+    .listofappointment_contentwrapper .datatable-scroll .datatable-scroll{overflow-x: auto;min-height:auto;}
+}
+
+@media screen and (max-width:1200px){
+    .listofappointment_title{position:relative;margin-top:0px;}
+    .listofappointment_title .teacherappoinment_viewall{margin-left:auto;right:0px;float:right;}
+    .teacher_listofappoinment{height:400px;}
+
+    .tutorregistration_top{padding:60px 0px 80px;}
+    .tutorregistration_top::before{height:182px;width:100px;}
+    .tutorregistration_top::after{height:186px;width:100px;}
+    .tutorregistration_top p{line-height:24px;font-size:17px;max-width:800px;}
+    .tutorregistration_top h2{font-size: 30px;}
+    .tutorregistration_top h4{margin: 14px 0px 11px;font-size: 22px;}
+
+    .tutortraning_top{padding:60px 0px 80px;}
+    .tutortraning_top p{line-height:24px;font-size:17px;max-width:800px;}
+    .tutortraning_top h2{font-size: 30px;}
+    .tutortraning_top h4{margin: 14px 0px 11px;font-size: 22px;}
+
+    .appointmentofweek .fc-time-grid .fc-event, .fc-time-grid .fc-bgevent{min-height:120px;}
+    .tutorregistration_middle{margin-top:30px;}
+    .lookingfortutoring{margin:20px auto 30px}
+    .stepSection .panel-body p{font-size:16px;}
+    .bringalong_container{padding:50px 0px;}
+    .bringalong_container h3{margin-bottom:0px;}
+
+    .bringalong_Applynow {margin: 50px 0px 30px;}
+    h2 {font-size: 30px;}
+
+    .teachertraning_sub .container h2 {font-size: 26px;}
+    .teachertraning_sub .container p {font-size: 17px;margin: 5px 0px 20px;}
+    .teachertraning_sub_container {padding: 40px 0px;}
+    .readytostart {padding: 60px 0px;}
+    .howitwork_sub .container .new {margin-top:20px;}
+
+    .howitwork_sub .container p {margin: 5px 0px 12px;}
+    .faqs_sub{padding:40px 0px;}
+
+    .tutorregistration_top h1{font-size: 30px;}
+.tutorregistration_top h2{font-size: 22px;}
+
+.tutortraning_top h1{font-size: 30px;}
+.tutortraning_top h2{font-size: 22px;}
+
+.listofappointment_contentwrapper .panel-flat .panel-heading h2.Past_Session_Head {font-size: 21px;}
+.listofappointment_contentwrapper .panel-heading .panel_view {margin-top:12px;}
+.listapp_totalhr {font-size: 20px;}
+
+.teachersdashboard_calendar .fc-time-grid .fc-event, .fc-time-grid .fc-bgevent{min-height:81px;}
+
+.teachertraning_sub_container .work1-video_sub {background-size: 450px 226px;height: 226px;width: 450px;}
+.teachertraning_sub_container iframe.work1-video {width:246px;height:151px;padding-top:12px;}
+
+.howitwork_sub .container .Professionalonline_content23 h3 {font-size: 16px;}
+.howitwork_sub .container .Professionalonline_content23 p{line-height:22px;font-size:15px;}
+.typicaltutorial_img figurecaption {padding-top:3px;font-size:15px;}
+
+.howitworks2_wrap .howitwork_sub .container .howwork_content p {font-size:16px;}
+.howitworks2_wrap .howitwork_sub .container p {font-size:15px;line-height: 22px;}
+.Faq_tabcon .accordion{font-size:17px;line-height:22px;}
+.technical_container36{margin-top:30px;}
+
+.howitwork_readytostart a.btn.howitwork3_contact{min-width:200px; padding: 10px 22px;}
+.cancellation_wrap .container .content h2.onlineheading59{font-size:24px;}
+.abouteasytutor_content3{font-size:16px !important;}
+.howitwork_readytostart h3.create_head_read {margin-bottom: 35px;}
+
+.affiliateprogram_banner .container h1{font-size:32px;}
+.affiliateprogram_banner .container p{font-size:16px;}
+.affiliateprogram_banner {padding: 85px 0px;}
+
+.affiliateprogram_container .container h2{font-size:21px;padding-bottom:18px;}
+.affiliateprogram_container .container h2.onlinehead_head{font-size:24px;margin-bottom:18px;padding-bottom:21px;}
+.affiliateprogram_container .container .onlinehead_content27 {margin-bottom: 14px;}
+.affiliateprogram_container .container .onlinehead_content28 {margin-top: 16px;}
+
+.affiliateprogram_container .signupnow {max-width:210px;font-size:15px;margin:35px auto 25px;padding-top:9px;padding-bottom:9px;}
+.affiliateprogram_container .contactperson_content1 {margin-bottom: 19px;}
+
+.effectivestudent_wrap .work1-video_sub {margin-top:8%;}
+.effectivestudent_wrap .effectivestudent_tutoring .container h2 {font-size: 25px;}
+.massimocancellara_sub{margin-top:20px;}
+.contact_text31{margin-top:25px;}
+.suitable_banner p{font-size:16px;line-height:23px;}
+.tutoringcertified_sub{margin-top:30px;}
+.howitwork_sub .container .tutoringcertified_sub p{font-size:15px;line-height:22px;}
+
+
+.priceonline_comparison{margin-top:30px;}
+.priceonline_comparison i.icon-trophy2{height:28px;width:28px;line-height:28px;font-size:28px;top:17px;}
+.howitwork_sub .container .priceonline_comparison i.fa-gift{height:28px;width:28px;line-height:28px;font-size:28px;margin-top:-2px;top:17px;}
+.priceonline_comparisoncontent{padding-left:40px;position:relative;font-size:18px;}
+.priceonline_comparison .panel{padding:17px;min-height:80px;} 
+
+.priceonlinetutoring_wrap .whitebg .price_sub_container {width: 33.333%;float: left;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .first_content_price {margin-top: 31.2%;}
+.pricinglinestutoring_res{margin-top:40px;}
+.priceonlinetutoring_wrap .whitebg .pricing-table .first_content_price {margin-top: 105px;}
+
+.priceonlinetutoring_wrap .whitebg{padding:95px 0px 50px;}
+.pricesonlinetutoring_bottomcontent{margin-top:10px;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1100px){
+    .teachersdashboard_calendar .fc-toolbar.fc-header-toolbar{height:auto !important;}
+    }
+
+@media screen and (max-width:1099px){
+    .teachertraning_sub .container h2 {font-size: 24px;}
+    .teachertraning_sub .container p {font-size: 15px;margin: 0px 0px 15px;padding-left:30px;line-height: 22px;}
+    .testimonial_sub .container p{padding-left:24px;}
+    .testimonial_sub .comma,.testimonial_sub .comma2{font-size:36px;}
+    .howitwork_sub .container h2.onlinehead_head {margin-top:-10px;}
+    .teachertraning_sub .container .Faq_tabcon .panel p{padding-left:0px;}
+    .affiliateprogram_container .container h2{font-size:21px;padding-bottom:0px;text-align:left !important;}
+.affiliateprogram_container .container h2.onlinehead_head {font-size:24px;margin-bottom:15px;padding-bottom:18px;}
+.effectivestudent_wrap .container p{padding-left: 0px;}
+
+.effectivechoose_btn {font-size: 13px; padding: 8px 13px;max-width: 220px;margin-top: 10px;}
+}
+
+@media screen and (max-width:1024px){
+.tutorregistration_middle .panel-body{min-height: auto;}
+.firstimg{margin-top:20px;}
+.secondimg{margin-bottom:20px;}
+.teachertraning_sub_container {padding: 30px 0px;}
+.testimonial_sub  h2{text-align: center;margin-bottom:5px;}
+.testimonial_sub .testimonial_content{max-width:500px;margin-left:auto;margin-right:auto;}
+.testimonial_sub .firstimg{margin-top:0px;margin-bottom:20px;}
+.testimonial_sub .secondimg{margin-bottom:0px;margin-top: 20px;}
+.testimonial_sub .container h2{margin-top:0px;}
+.teachertraning_sub .teachercontent3{max-width:500px;margin-left:auto;margin-right:auto;}
+.teachertraning_sub .teachertraning_sub_container a{display:block;width:250px;margin-left:auto;margin-right:auto;}
+.teachertraning_sub .container h2{text-align:center;}
+
+.howitwork_sub .howwork_content{margin-left:auto;margin-right:auto;max-width:500px;}
+.howitwork_sub .container h2.onlinehead_head {margin-top: 0px;}
+
+.howitwork_sub .firstimg {margin-top: 10px;margin-bottom: 0px;}
+.howitwork_sub .secondimg {margin-bottom:0px;margin-top:20px;}
+.faqs_sub{padding:30px 0px;}
+.contact_container .panel{min-height:auto;}
+
+.video_responsive1{margin-left:auto;margin-right:auto;display:block;margin-bottom:15px;}
+.video_responsive2{margin-left:auto;margin-right:auto;display:block;margin-top:18px;}
+
+.listofappointment_contentwrapper .datatable-scroll{min-height: auto;}
+.listofappointment_contentwrapper .dashbord_allpast2 .datatable-scroll th,.listofappointment_contentwrapper .dashbord_allpast2 .datatable-scroll td {white-space: initial;}
+
+.work1-lessonvideo-left{width:100%;}
+.work1-lessoncontent-right{width:100%;}
+.howitwork_sub .container p strong a {display:inline;width:auto;}
+
+.teachertraning_sub_container .work1-video_sub {background-size: 550px 274px;height: 274px;width: 550px;margin:20px auto 0px;}
+.teachertraning_sub_container iframe.work1-video{width:300px;height:183px;padding-top:14px;}
+
+.howitworks1_suitable{max-width:500px;}
+.howitworks2_wrap .typicaltutorial_img img{margin-bottom:5px;}
+.typicaltutorial_img figurecaption {margin-bottom: 15px;}
+.teachertraning_sub .teachertraning_sub_container .Professionalonline_content23 p a{display:inline;width:auto;}
+.howitworks2_wrap .container h2.onlinehead_head{margin-bottom:20px;}
+.Professionalonline_content23 {padding-left:0%;}
+
+.affiliateprogram_banner {padding: 65px 0px;}
+.howitwork_leftsub{float:none;width:100%;}
+.howitwork_rightsub{float:none;width:100%;}
+.teachertraning_sub_container .howevervideo_sub{margin:0px auto 20px;}
+.tutoringprice_logo{display:none;}
+.pricingcomparison_table thead tr th .tutoringprice_logo2{display:block;margin-left:auto;margin-right:auto;max-width:100px;}
+.pricingcomparison_table_wrap::-webkit-scrollbar {height:6px;}
+.teachertraning_sub .container h2.pricingcomparison_table_head {margin-bottom: 15px !important;margin-top: 10px;}
+
+.rightprivatelesson_list li{text-align:center;}
+.leftprivatelesson_list li{text-align:center;}
+.teachertraning_sub .teachertraning_sub_container .rightprivatelesson_list li a{display:inline;width:auto;}
+.leftprivatelesson_list{margin:0px auto;max-width:265px;}
+.leftprivatelesson_list li {padding-bottom:5px;font-size:18px;}
+.leftprivatelesson_list i.icon-cross3 {font-size: 30px;margin-left:8px;}
+.rightprivatelesson_list li {padding-bottom: 5px;font-size: 18px;}
+.rightprivatelesson_list li i.icon-checkmark4, .rightprivatelesson_list li i.icon-stamp {font-size: 22px;line-height: 30px;margin-right: 8px;}
+.rightprivatelesson_list{margin:10px auto 0px;max-width:430px;}
+.priceonline_comparison .panel {min-height:auto;}
+}
+
+@media screen and (max-width:1050px){
+.tutortraning_top{padding:60px 0px;}
+}
+
+@media screen and (max-width:1000px){
+    .tutorregistration_top{padding:50px 0px 70px;}
+    .tutorregistration_top::before{height:128px;width:70px;top:10%;}
+    .tutorregistration_top::after{height:130px;width:70px;top:10%;}
+    .tutorregistration_top p{line-height:22px;font-size:15px;max-width:700px;}
+    .tutorregistration_top h2{font-size:26px;}
+    .tutorregistration_top h4{margin: 10px 0px 7px;font-size:18px;}
+    .tutorregistration_top h1{font-size: 26px;}
+.tutorregistration_toph2{font-size: 18px;}
+
+.tutortraning_top{padding:50px 0px 70px;}
+    .tutortraning_top p{line-height:22px;font-size:15px;max-width:700px;}
+    .tutortraning_top h2{font-size:26px;}
+    .tutortraning_top h4{margin: 10px 0px 7px;font-size:18px;}
+    .tutortraning_top h1{font-size: 26px;}
+
+}
+
+@media screen and (max-width:991px){
+    .tutorregistration_top{padding:20px 0px 40px;}
+    .tutortraning_top{padding:20px 0px 40px;}
+    .tutorregistration_top::before{display:none;}
+    .tutorregistration_top::after{display:none;}
+
+    .tutortraning_top{padding:0px 0px 40px;}
+
+    .bringalong_container ul li {padding-bottom: 15px;font-size:15px;}
+    .bringalong_container h2{font-size:26px;}
+    .bringalong_Applynow .panel-title {font-size:20px;}
+    h2 {font-size:24px;}
+
+    .listofappointment_contentwrapper .fc-toolbar.fc-header-toolbar {height:auto;}
+    .listofappointment_contentwrapper .fc-toolbar .fc-center {float:none;}
+
+    .listofappointment_contentwrapper .appointmentllisting_table31 .fc-toolbar.fc-header-toolbar{height:auto !important;}
+
+    .priceonlinetutoring_wrap .whitebg .price_sub_container{width:100%;float:none;padding-right:0px;}
+    .priceonlinetutoring_wrap .whitebg{padding:40px 0px 40px;}
+    .priceonlinetutoring_wrap .whitebg .pricing-table .first_content_price {margin-top: 0px;}
+    .pricinglinestutoring_res1{margin-top:50px;}
+    .priceonlinetutoring_wrap .whitebg .pricing-table .first_content_price ul li:first-child, .priceonlinetutoring_wrap .whitebg .pricing-table .first_content_price ul li:last-child {height: 27px;}
+    .priceonlinetutoring_wrap .pricing-table ul > li.satisfation {min-height:auto;}
+    .priceonlinetutoring_wrap .pricing-table ul > li.graphicstable {min-height: auto;}
+    .priceonlinetutoring_wrap .content-group li:first-child {min-height: auto;}
+}
+
+@media screen and (max-width:768px){
+.bringalong_container {padding: 50px 0px 0px;}
+.uploadcert_sub3{padding-left: 20px;}
+.affiliateprogram_banner .container h1{font-size:28px;}
+.affiliateprogram_banner .container p{font-size:15px;}
+.teachersdashboard_calendar .fc-toolbar .fc-center h2 {margin-top:-40px;}
+.howitwork_readytostart h3.create_head_read {margin-bottom: 25px;}
+.affiliateprogram_banner {padding: 50px 0px;}
+}
+
+@media screen and (max-width:767px){
+.listofappointment_title .teacherappoinment_viewall {top:-27px; }
+.bringalong_container ul{max-width:500px;margin-left:auto;margin-right:auto;}
+.bringalong_container .img-responsive{max-width:100%;}
+
+.tutortraning_top {padding:0px 0px 60px;}
+.readytostart {padding: 40px 0px;}
+.readytostart h3{font-size:24px;}
+
+.contact_container h2 {font-size:24px;}
+.contact_container h3 {font-size:18px;}
+.contact_container .contactus_content1{margin-bottom:15px;font-size:15px;}
+.contact_container .contactinfo_content a {font-size:16px;}
+.contact_container .contacticon {font-size: 16px;height: 26px;width: 26px;line-height: 26px;}
+.contactinfo_content {padding-left:36px;}
+.contact_container .contactinfo_sub {margin-bottom:15px;}
+.contact_container .fa-whatsapp {font-size:20px;}
+
+.tutorregistration_top{padding:15px 0px 30px;}
+    .tutortraning_top{padding:15px 0px 30px;}
+
+    .teachertraning_sub_container .work1-video_sub {background-size: 450px 226px;height: 226px;width: 450px;}
+.teachertraning_sub_container iframe.work1-video {width:246px;height:151px;padding-top:12px;}
+.howitwork_sub .Flexibletime_img img{margin-top:20px;}
+.contact_text31{margin-top:20px;}
+.suitable_banner p{font-size:15px;}
+.howitwork_readytostart a.btn {padding: 12px 15px;font-size: 16px;}
+.pricesonlinetutoring_bottomcontent{margin-top:5px;}
+}
+@media screen and (max-width:600px){
+ .howitworks1_suitable{max-width:100%;}
+ .howitworks1-font5{text-align:center;}
+}
+@media screen and (max-width:570px){
+    .teachertraning_sub_container .work1-video_sub {background: url(../images/Bildschirm-Hintergrund-Nachhilfe-Erklärvideo-Easy-Tutor-mobile.png) center center no-repeat;background-size: 350px 286px;height: 286px;width: 350px;}
+    .teachertraning_sub_container iframe.work1-video {width:312px;height:192px;padding-top:15px;}
+    .howitworks1_wrap{padding:0px;}
+    .perfectteacher_img21 {max-width: 100%;}
+    .howitwork1_btnseperater{display:block;margin-bottom:4px;}
+    .teachertraning_wrap .bluebg {margin-left: 0px;margin-right: 0px;}
+}
+
+@media screen and (max-width:500px){
+.teachersdashboard_calendar .teacherlistingsub:last-child {width:60px;}
+.teachersdashboard_calendar .teacherlistingcolor{width:222px;}
+.teachersdashboard_calendar .fc-button {padding:6px 13px;}
+.teachersdashboard_calendar .fc-toolbar .fc-center h2 {margin-top: -38px;}
+.howitwork1_triallesson{margin-bottom:10px;}
+
+.howitwork1_bannercontent{font-size: 15px !important;line-height: 21px !important;padding-top:3px;}
+.affiliateprogram_banner {padding: 35px 0px;}
+.teachertraning_wrap .bluebg{padding-left:8px;}
+.readytostart h3 {font-size: 20px;}
+}
+
+
+@media screen and (max-width:450px){
+.endtraning_btn button{font-size:18px;padding:5px 5px 3px;line-height:24px;}
+.teachertraning_wrap{padding-left:0px;padding-right:0px;}
+.completetraning{padding-left:0px;padding-right:0px;}
+.teachertraning_wrap .bluebg{margin-left:0px;margin-right:0px;}
+.priceonlinetutoring_wrap .whitebg{margin-left:0px;margin-right:0px;}
+/* .priceonlinetutoring_wrap .whitebg .pricing-table .pricing-table-price,.priceonlinetutoring_wrap .whitebg .pricing-table .prices_list_footer a{margin-right:0px;margin-left:0px;} */
+}
+
+@media screen and (max-width:400px){
+    .teachertraning_sub_container .work1-video_sub {background-size: 280px 229px;height: 229px;width: 280px;}
+    .teachertraning_sub_container iframe.work1-video {width: 250px;height: 153px;padding-top: 12px;}
+    .work1-lessonvideo-left{padding-left: 0px;padding-right: 0px;}
+    .affiliateprogram_banner {padding: 30px 0px;}
+}
+@media screen and (max-width:320px){
+.howitwork_sub .teachertraning_sub_container .container{padding-left:0px;padding-right:0px;}
+}

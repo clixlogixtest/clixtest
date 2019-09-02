@@ -1,0 +1,263 @@
+/*past tab section*/
+
+.dashboard_wrapper .easycloud .card,
+.pastTab .card {
+    margin-bottom: 0!important;
+}
+
+.pastTab .title {
+    padding-bottom: 26px;
+}
+
+
+/*tabber*/
+
+.pastTab .tabber {
+    margin-bottom: 10px;
+}
+
+.tabber label,
+.pastTab .tabber li {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pastTab .tabber ul {
+    list-style-type: none;
+}
+
+.pastTab .tabber li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.messageTabbers .tabber li a,
+.pastTab .tabber li a {
+    text-decoration: none
+}
+
+.buttons {
+    font-size: 16px;
+    height: 37px;
+    line-height: 31px;
+    padding: 0 15px;
+    min-width: 81px;
+}
+
+
+/*.pastTab .card{margin-bottom:0 !important;}*/
+
+.pastTab .title {
+    padding-bottom: 26px;
+}
+
+
+/*tabber*/
+
+.pastTab .tabber ul {
+    list-style-type: none;
+}
+
+.pastTab .tabber li {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.pastTab .tabber li a {
+    text-decoration: none
+}
+
+.payButton {
+    margin: 30px 0;
+}
+
+.freeTrial .title {
+    padding-bottom: 0;
+    color: #4566bd;
+    text-transform: none
+}
+
+.freeTrial .teacherProfile p {
+    font-weight: bold;
+}
+
+.freeTrial .viewall {
+    float: right
+}
+
+
+/*dropdown*/
+
+.selectSubject select,
+.viewall select {
+    border-radius: 23px;
+    background-color: #1a9ceb;
+    color: #fff;
+    font-size: 20px;
+    height: 37px;
+    margin-bottom: 20px;
+    margin-top: -11px;
+    padding: 0 35px 0 12px;
+    border: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../images/selectArrow-white.png);
+    background-position: 94% center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+}
+
+
+/*select subject*/
+
+.dashboard_wrapper .easycloud .card,
+.dashboard_wrapper .downloadFiles .card {
+    margin-bottom: 0
+}
+
+.selectSubject select {
+    min-width: 200px!important;
+}
+
+.selectSubject .table tbody tr td span {
+    text-align: center;
+    color: #4768bb
+}
+
+.freeTrial .table tbody tr td span {
+    text-align: center
+}
+
+.downloadFiles .title {
+    padding: 0
+}
+
+.downloadFiles p,
+.easycloud p {
+    color: #4768bb;
+}
+
+.downloadFiles .table .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4768bb;
+}
+
+.downloadFiles tbody tr td i {
+    padding-left: 10px;
+}
+
+
+/*messagebox*/
+
+.messagebox_sideBar .sidebar-header {
+    background: #019aee!important;
+}
+
+.messagebox_sideBar .media-body {
+    text-align: center;
+    font-size: 24px!important;
+    color: #fff;
+}
+
+.messagebox_sideBar .searchBox {
+    margin-top: 10px
+}
+
+.messagebox_sideBar .searchBox input {
+    width: 100%;
+    position: relative;
+}
+
+.messagebox_sideBar .searchBox i {
+    position: absolute;
+    top: 55px;
+    right: 28px;
+}
+.teacherInfo li,
+.messageTabbers .tabber li,
+.selectionButton li,
+.messagebox_sideBar .list_sidebar li {
+    display: inline-block;
+}
+
+.messagebox_sideBar .list_sidebar li {
+    font-size: 22px;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.messagebox_sideBar .list_sidebar li span {
+    font-size: 18px;
+    font-weight: normal
+}
+
+.messageTabbers{margin-bottom: 40px;}
+
+.selectionButton li {
+    color: #000;
+}
+
+.teacherMessageBox {
+    margin: 50px 80px
+}
+
+.messageTabbers .tabber li,
+.teacherMessageBox .teacherInfo li {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0 20px;
+}
+
+.teacherMessageBox .teacherInfo li {
+    color: #4768bb
+}
+
+.teacherMessageBox .teacherInfo li span {
+    color: #000;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.teacherMessageBox .teacherInfo li:nth-child(2) {
+    vertical-align: middle
+}
+
+.teacherMessageBox .commentbox {
+    text-align: center
+}
+
+.teacherMessageBox .commentbox textarea {
+    width: 100%;
+    box-shadow: 0px 3px 15px 1px #4768bbb0;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+.selectionButton .messageButtonClick.active .msg-link {
+    color: #fff !important;
+    background-color: #019aee;
+    border-radius: 18px;
+    padding: 10px 20px;
+}
+
+.teacherInfo .btnWrapper {
+    text-align: right
+}
+
+.teacherInfo .btnWrapper i{font-size: 36px;
+    margin-right: 20px;
+    vertical-align: middle;
+    }
+
+.teacherInfo .btnWrapper i,.reportASpam label{color: #4768bb;}
+
+/*report a spam*/
+.reportASpam .commentbox{text-align: left;font-size: 24px;font-weight: bold;}
+
+
+

@@ -1,0 +1,215 @@
+@media screen and (min-width:1620px){
+    .radioBox span{font-size:22px;}
+    h3 { font-size: 43px;}
+}
+@media screen and (min-width:1300px) and (max-width:1620px){
+    .container{ max-width:969px;}
+    .headerLogo a {display: inline-block;margin-top: 5px;}
+    header nav.navbar .nav-link {padding: 15px 50px !important;}
+    .btn.btn-default {min-width: 192px;height: 51px;line-height: 37px;font-size: 18px;}
+    .banner p{font-size: 18px;}
+    .banner .title { line-height: 30px;}
+    footer h4{ font-size:20px;}
+    #sidebar .list-unstyled li a{font-size:18px;}
+    .lesson .content img, .timing .content img {max-width: 485px;}
+    img.uabb-photo-img.wp-image-11525.size-full {padding:0px 0 42px;max-width: 90%;}
+    footer ul li a {font-size: 18px;}
+    .dashboard_wrapper .dashboard {padding:0 15px;}
+    .table thead th {font-size: 18px; }
+    .dashboard_wrapper .card .card-header {font-size: 24px; }
+    .profile .box ul li{  font-size: 19px;}
+    .table tbody tr td{font-size:16px;}
+    .title{font-size: 25px;}
+    .bonusProgram .box .box-title{ font-size:26px;}
+    .payForm .formBox h4 { font-size: 24px; }
+    .prefooter .btn-secondary{font-size:20px;}
+    .user_detail .panel-footer .btn{font-size:11px;}
+    .user_detail { max-width: 420px; margin: 0 auto;}
+ 
+    .howitwork_sub .container{max-width: 1200px;}
+
+}
+
+@media screen and (min-width:1300px) and (max-width:1330px){
+ul.nav.navbar-nav.middle-menu .nav-item a {padding: 15px 25px;}
+footer h4{ font-size:20px;}
+footer ul li a {font-size: 18px;}
+}
+
+@media screen and (max-width:1299px){
+    ul.nav.navbar-nav.middle-menu .nav-item a {padding: 15px 10px;}
+    .dashboard_wrapper .dashboard {padding:0 15px;}
+    .dashboard_wrapper .card .card-header { font-size: 23px;}
+    table.dataTable thead th, .table thead th{font-size:18px; height:50px;}
+    .table tbody tr td:first-child, .table thead th:first-child, .table tfoot td:first-child{padding-left:15px;}
+    .table tbody tr td:last-child, .table thead th:last-child, .table tfoot td:last-child {padding-right: 15px;}
+    .table tbody tr td,.table tfoot td, .table thead th{height:50px;}
+    .dataTables_scrollBody{height:199px !important;}
+    .selectTeacher .dataTables_scrollBody {height: 450px !important;}
+    .table tfoot td{padding:0;}
+    .selectTeacher .media .media-body p {font-size: 17px;}
+    .selectTeacher .media .media-body h4 {font-size: 25px;}
+    .selectTeacher .media .media-body label {font-size: 18px;margin-bottom: 7px;}
+    .title{font-size: 23px;}
+    footer h4{ font-size:20px;}
+    footer ul li a {font-size: 18px;}
+    .homewrap .container{width:100%;}
+    .homewrap{overflow-x:hidden;}
+}
+
+@media screen and (max-width:1199px){
+    ul.nav.navbar-nav.middle-menu .nav-item a { padding: 15px 10px;   font-size: 12px; }
+    .lesson, .timing, .learning, .whyUs { overflow: hidden;}
+    .container{width:100%; max-width: 1025px; }
+    img{ max-width:100%;}
+    h1{font-size:34px}
+    .homewrap h1{font-size:22px}
+    h2{font-size:24px}
+    h3{font-size:22px}
+    h4{font-size:20px;}
+    .EveryTeacher h4 {font-size: 21px;}
+    #sidebar .list-unstyled li a{font-size:17px;}
+    p{font-size:16px;}
+    .lesson .content .text h3, .timing .content .text h3 {font-size: 25px; }
+    .content .text {padding: 50px 15px; }
+    img.uabb-photo-img.wp-image-11525.size-full {padding: 30px 0 42px; margin:0 auto;}
+    .timing .content img{max-width:380px;}
+    header nav.navbar .nav-link { padding: 15px 59px !important;}
+    .banner .title br{display:none;}
+    .demoVideo figure{max-width: 548px;padding: 16px 18px 150px;height: 455px;}
+    .card-block{overflow-x:auto;}
+    .dashboard_wrapper .card .card-header {font-size: 20px;}
+    .freeTrial .tabber .btn.btn-default { min-width: 120px; font-size: 18px;}		
+   .freeTrial .viewall li label,		
+   .freeTrial .tabber li{margin: 0; font-size:18px;}
+   footer h4{ font-size:20px;}
+footer ul li a {font-size: 16px;}
+}
+@media screen and (max-width:991px){   
+    .navbar-header { margin-left: 0;} 
+    .page-container {padding-top: 118px;}
+    header nav.navbar .nav-item.active .nav-link, header nav.navbar .nav-item:hover .nav-link, header nav.navbar .nav-item:focus .nav-link { color: #fff;background-color: transparent; border-radius:0; border-bottom: 2px solid #fcb315;display: block;}
+    .lesson, .timing, .learning, .whyUs { padding: 31px 0 21px;}
+    .learning ul li {height: 195px;}
+    .learning { padding: 35px 0 80px;}
+    div#navbarNav {position: absolute;width: 100%;left: 20px;top: 0;background: #3d5388;z-index: 99999999999;box-shadow: 0px 7px 13px 0px #00000047;}
+    .demoVideo figure {padding: 12px 14px 113px;max-width: 46%;height: 340px;}
+    footer .slick-slider{ margin-left:30px;}
+    header ul.navbar-nav .nav-item{ text-align:left;}
+    .banner .title{line-height: 26px;}
+    .banner p, .banner figure, .banner .title {padding-left:0px;}
+    .headerTop .login .loginLink {padding-right: 15px;}
+    .banner .nextArrow .theme.flowerFont {font-size: 25px;}
+    .Sidebarclose{display:block !important;}
+    .dashboard_wrapper{margin-right: -300px; }
+    .dashboard_wrapper.hideSidebar{padding-left:0px; margin-right:0;  }
+    .formBox {padding: 23px 20px;}
+    header .headerLogo img { min-width: 140px;}
+    .btn.btn-default {min-width: 150px;height: 45px;line-height: 31px;font-size: 18px;}
+    .headerTop .container {/* display: table; */max-width: 100%;padding-left: 50px;padding-right: 50px;}
+    .myproduct table.dataTable tfoot th, .myproduct table.dataTable tfoot td{ font-size:18px; }
+    .subscriptionsHeader{display:none;}
+    .subsciptions .subscriptionsHeader{display:block;}
+    .subsciptions .subscriptionsHeader::before, .subsciptions .subscriptionsHeader::after{display: none;}
+    .payForm .paddingRight{padding-right:15px;}
+    .payForm .paddingLeft{ padding-left:15px;}
+    .payForm .formBox {padding: 24px 0px;}
+    footer h4 + ul{margin-bottom:30px;}
+    header nav.navbar .nav-link { padding: 15px 40px !important;}
+    .viewappoinment_12 {text-align: center;position: initial; margin-top:10px; }
+}
+
+@media screen and (max-width:768px) {
+    .page-container {  padding-top: 15px; }
+    ul.nav.navbar-nav.visible-xs-block.mobile_menu { position: absolute; left: 0; top: 0; }
+    .navbar-inverse .navbar-brand{    margin-left: 20px;}
+.mobile_indexright_login{display: block;  position: absolute;  top: 13px; right: 20px;}
+.indexright_login{display:none;}
+.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline{    margin-left: 0;    margin-right: 15px;}
+.login-form  .radio-right.radio-inline{    margin-left: 0;margin-right: 15px;margin-bottom: 10px;padding-right: 0;display: block;padding-left: 28px;}
+.mobile_show{display:inline-block;}
+.mobile_hide{display:none !important;}
+.login-form .radio-right .choice{right:initial; left:0;}
+li.dropdown.dropdown-user.hide_mobile { display: none;}
+a.navbar-brand.home { margin-left: 55px;padding-left: 0;}
+header{padding-bottom:0;}
+
+}
+    @media screen and (max-width:767px) {
+        
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height:initial;  }
+    .prefooter .title:before, .prefooter .title::after{display:none}
+    .prefooter {padding: 26px 0;}
+    .prefooter .btn-secondary {font-size: 15px;margin: 7px 7px;}
+    .content .right ,.content .text{float:none; padding:30px 15px; width:100%; text-align:center;}  
+    .lesson .content img, .timing .content img { height: auto; width: auto; height: 182px;}
+    .timing .media, .timing .media-left, .timing .media-right, .timing .media-body{ display:block; width:100%;}
+    .learning ul { display: block;}
+    .learning ul li {height: 263px;width: 100%;position: static !important;margin: 0px 0 48px !important;padding: 36px 0 0;}
+    .demoVideo figure{ max-width:80%;}
+    .demoVideo figure::before, .demoVideo figure::after{ display:none;}
+    .demoVideo figure {padding: 13px 15px 132px;max-width: 76%;height: 399px;}
+    .headerTop .login .loginLink {padding-right:0;}
+    .formBox .form-control {height: 43px;line-height: 43px;font-size: 18px;}   
+    .formBox select.form-control{    height: 43px !important;    line-height: 28px;} 
+    .radioBox span {font-size: 15px;}
+    .headerTop .login .search.open .form-control {max-width: 119px;}
+    .headerTop .notification a, .headerTop .emails a {width: 38px;}
+    .dashboard .text-right{text-align:center !important;}
+    .shoppingCart{display:none;}
+    .profile .box ul li {font-size: 18px;padding: 4px 0;}
+    .myproduct table.dataTable tfoot th, .myproduct table.dataTable tfoot td{ font-size:16px; font-size:bold; }
+    .title{font-size: 20px;}
+    .payForm {padding: 20px 15px; }
+    .payForm .paddingLeft{margin-top:40px; padding-top:20px; border-top:1px solid #ddd; }
+    .payForm .formBox {padding: 24px 30px;}
+    .dashbord .media img{min-width:46px; height:auto; }
+    .navbar-light .navbar-toggler{display:block;} 
+    .dashbord .panel-flat .panel-heading h2{text-align:left;}
+    
+    .dashbord .panel-flat .panel-heading h2.dashbordupcominghead{padding-right:50px;}
+    .testimonial_block{padding-top:40px;}
+}
+@media screen and (max-width:575px){
+    .headerTop .headerLogo, .headerTop .login{display:block;}
+    .headerTop .login {padding-right: 0;width: calc(100% + 34px);margin-top: 2px;background-color: #4768ba;height: 44px;    right:0; position: relative;}
+    .navbar-light .navbar-toggler{top: -90px;}
+    .box{width:100%; max-width:90%; margin:0 5%;}
+    .box button.btn {font-size: 16px !important; margin: 10px 4px;min-width: 200px !important;}
+    .bonusProgram .box {max-width: calc(100% - 45px); padding-left:15px; padding-right:15px; }
+    .freeTrial .viewall{float: none!important;}		
+    .freeTrial .tabber .btn.btn-default,		
+    .freeTrial .viewall li label,		
+    .pastTab .tabber li{margin: 0 5px; font-size: 15px;}		
+    .pastTab .viewall{float: right;margin-top: -40px;}		
+    .tabber .btn.btn-default { min-width: 120px;}		
+    .freeTrial .viewall{margin: 0; margin-top: 20px;}
+    .subsciptions ul.times-circle-o, .subsciptions ul.check-circle-o{ padding:20px 15px 30px;}
+    .payForm .box{padding:0;}
+    .payForm .formBox h4{font-size: 22px;}
+    .changepassword .btn{ margin:0 auto; margin-bottom:12px; display:block;}
+    
+}
+
+@media screen and (max-width:479px) {
+    .headerTop .container {display:block; width:100%;}    
+    header nav.navbar {padding: 0; width: 100%;margin-top: -2px; }
+    .homewrap .banner {padding: 38px 15px; width: 100%;}
+    .demoVideo figure {padding: 10px 10px 93px;max-width: 90%;height: 280px;}
+    footer .socialLinks { text-align: center;}
+    .banner .nextArrow .theme.flowerFont{font-size:22px;}
+    header nav.navbar .nav-link { padding: 15px 15px !important;}
+    .bonusProgram .box ul li a{font-size:22px;}
+    div#navbarNav{top: -46px;}
+    .headerTop .login .search.open .form-control {max-width: 139px;}
+    .headerTop .login .search{display:none;}
+    .profile .box ul li{width:100%;    font-size: 23px;}
+    .profile .box ul li.leftPf .fa{display:inline-block; padding-right: 12px;}
+    .profile .box ul li.rightPf{margin-bottom:18px;}
+    .payoption.profile .box ul li.leftPf,.payoption.profile .box ul li.rightPf { width: 100%;}
+    .bonusProgram .refferal .input-group, .bonusProgram .refferal .form-control{display:block; width:100%; }
+    .subsciptions .paln .paln_list { padding: 0 10px; }
+    #generic_price_table { margin: 0;}
+    .page-container{padding:20px 10px 60px;}
+    
+}

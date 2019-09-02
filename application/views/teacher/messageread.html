@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>easy Tutor</title>
+    <link rel="icon" href="../assets/images/icon.png" sizes="192x192" />
+    <meta name="description" content="easy tutor, online tutor">
+    <!-- Global stylesheets -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="../assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/core.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/colors.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/responsive.css" rel="stylesheet" type="text/css">
+
+    <!-- /global stylesheets -->
+
+
+    <!-- Core JS files -->
+    <script type="text/javascript" src="../assets/js/plugins/loaders/pace.min.js"></script>
+    <script type="text/javascript" src="../assets/js/core/libraries/jquery.min.js"></script>
+
+    <script>
+        $(function () {
+            $('#upload').on('change', function () {
+                $('#uploadarea').append("&nbsp;<span class='badge badge-default'>" + $(this).val() + "</span>");
+            });
+        });
+
+    </script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script type="text/javascript" src="../assets/js/core/libraries/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/loaders/blockui.min.js"></script>
+
+    <script type="text/javascript" src="../assets/js/core/libraries/jquery_ui/interactions.min.js"></script>
+    <script type="text/javascript" src="../assets/js/core/libraries/jquery_ui/widgets.min.js"></script>
+    <script type="text/javascript" src="../assets/js/pages/jqueryui_navigation.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script type="text/javascript" src="../assets/js/plugins/forms/wizards/steps.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script type="text/javascript" src="../assets/js/core/libraries/jasny_bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/forms/styling/switch.min.js"></script>
+    <script type="text/javascript" src="../assets/js/core/libraries/jasny_bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/forms/validation/validate.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/extensions/cookie.js"></script>
+
+
+
+    <script type="text/javascript" src="../assets/js/plugins/tables/datatables/datatables.min.js"></script>
+    <script type="text/javascript" src="../assets/js/pages/datatables_basic.js"></script>
+
+    <script type="text/javascript" src="../assets/js/core/app.js"></script>
+    <script type="text/javascript" src="../assets/js/pages/mail_list.js"></script>
+    <script type="text/javascript" src="../assets/js/pages/wizard_steps.js"></script>
+    <script type="text/javascript" src="../assets/js/pages/form_checkboxes_radios.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins/ui/ripple.min.js"></script>
+
+
+    <!-- /theme JS files -->
+
+</head>
+
+</head>
+
+<body>
+
+    <!-- Main navbar -->
+    <div class="navbar navbar-inverse bg-primary  navbar-fixed-top">
+        <div class="navbar-header">
+            <a data-toggle="collapse" data-target="#navbar-mobile" class=" mobile_show mobile_menu_toggle">
+                <i class="icon-three-bars"></i>
+            </a>
+
+            <a class="navbar-brand" href="index.html">
+                <img src="../assets/images/logo.png" alt="">
+            </a>
+
+            <ul class="nav navbar-nav visible-xs-block">
+                <li class="mobile_hide">
+                    <a data-toggle="collapse" data-target="#navbar-mobile">
+                        <i class="icon-three-bars"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="sidebar-mobile-main-toggle">
+                        <i class="icon-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-mobile">
+            <ul class="nav navbar-nav middle-menu">
+                <li>
+                    <a class="sidebar-control sidebar-main-toggle hidden-xs">
+                        <i class="icon-paragraph-justify3"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#">FIND TEACHER </a>
+                </li>
+                <li class="nav-item">
+                    <a href="">THIS IS HOW IT WORKS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="">PRICES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="">CONTACT US</a>
+                </li>
+            </ul>
+
+            <!-- <p class="navbar-text"><span class="label bg-success-400">Online</span></p> -->
+
+            <ul class="nav navbar-nav navbar-right">
+                <!-- <li class="dropdown language-switch">
+					<a class="dropdown-toggle" data-toggle="dropdown">
+						<img src="assets/images/flags/gb.png" class="position-left" alt="">
+						English
+						<span class="caret"></span>
+					</a>
+
+					<ul class="dropdown-menu">
+						<li><a class="deutsch"><img src="assets/images/flags/de.png" alt=""> Deutsch</a></li>
+						<li><a class="ukrainian"><img src="assets/images/flags/ua.png" alt=""> Українська</a></li>
+						<li><a class="english"><img src="assets/images/flags/gb.png" alt=""> English</a></li>
+						<li><a class="espana"><img src="assets/images/flags/es.png" alt=""> España</a></li>
+						<li><a class="russian"><img src="assets/images/flags/ru.png" alt=""> Русский</a></li>
+					</ul>
+				</li> -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-envelop3"></i>
+                        <span class="visible-xs-inline-block position-right">Messages</span>
+                        <span class="badge bg-warning-400">2</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-content width-350">
+                        <div class="dropdown-content-heading">
+                            Messages
+                            <ul class="icons-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="icon-compose"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="media-list dropdown-content-body">
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                    <span class="badge bg-danger-400 media-badge">5</span>
+                                </div>
+
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">James Alexander</span>
+                                        <span class="media-annotation pull-right">04:58</span>
+                                    </a>
+
+                                    <span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                    <span class="badge bg-danger-400 media-badge">4</span>
+                                </div>
+
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Margo Baker</span>
+                                        <span class="media-annotation pull-right">12:16</span>
+                                    </a>
+
+                                    <span class="text-muted">That was something he was unable to do because...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Jeremy Victorino</span>
+                                        <span class="media-annotation pull-right">22:48</span>
+                                    </a>
+
+                                    <span class="text-muted">But that would be extremely strained and suspicious...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Beatrix Diaz</span>
+                                        <span class="media-annotation pull-right">Tue</span>
+                                    </a>
+
+                                    <span class="text-muted">What a strenuous career it is that I've chosen...</span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading">
+                                        <span class="text-semibold">Richard Vango</span>
+                                        <span class="media-annotation pull-right">Mon</span>
+                                    </a>
+
+                                    <span class="text-muted">Other travelling salesmen live a life of luxury...</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="dropdown-content-footer">
+                            <a href="messagelist.html" data-popup="tooltip" title="All messages">
+                                <i class="icon-menu display-block"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle animation" data-animation="shake" data-toggle="dropdown">
+                        <i class="icon-bell2"></i>
+                        <span class="visible-xs-inline-block position-right">Notification</span>
+                        <span class="badge bg-warning-400">12</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-content">
+                        <!-- <div class="dropdown-content-heading">
+								Users online
+								<ul class="icons-list">
+									<li><a href="#"><i class="icon-gear"></i></a></li>
+								</ul>
+							</div> -->
+
+                        <ul class="media-list dropdown-content-body width-300">
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Jordana Ansley</a>
+                                    <span class="display-block text-muted text-size-small">Lead web developer</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-success"></span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Will Brason</a>
+                                    <span class="display-block text-muted text-size-small">Marketing manager</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-danger"></span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Hanna Walden</a>
+                                    <span class="display-block text-muted text-size-small">Project manager</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-success"></span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Dori Laperriere</a>
+                                    <span class="display-block text-muted text-size-small">Business developer</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-warning-300"></span>
+                                </div>
+                            </li>
+
+                            <li class="media">
+                                <div class="media-left">
+                                    <img src="../assets/images/teacherProfile.png" class="img-circle img-sm" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <a href="#" class="media-heading text-semibold">Vanessa Aurelius</a>
+                                    <span class="display-block text-muted text-size-small">UX expert</span>
+                                </div>
+                                <div class="media-right media-middle">
+                                    <span class="status-mark border-grey-400"></span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="dropdown-content-footer">
+                            <a href="#" data-popup="tooltip" title="All users">
+                                <i class="icon-menu display-block"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li class="dropdown dropdown-user mobile_hide">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="../assets/images/profile_pic.png" alt="">
+                        <span>Victoria</span>
+                        <i class="caret"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li>
+                            <a href="profile_detail.html">
+                            <i class="icon-user-plus"></i> My profile</a>
+                            </li>
+                            <li>
+                            <a href="">
+                            <i class="icon-stack-empty"></i> My Products</a>
+                            </li>
+                            <li>
+                            <a href="message.html">
+                            <span class="badge bg-teal-400 pull-right">58</span>
+                            <i class="icon-comment-discussion"></i> Messages</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                            <a href="login.html">
+                            <i class="icon-switch2"></i> Logout</a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /main navbar -->
+
+
+
+
+    <!-- Page container -->
+    <div class="page-container">
+
+        <!-- Page content -->
+        <div class="page-content">
+
+            <!-- Main sidebar -->
+            <div class="sidebar sidebar-main sidebar-default">
+                    <div class="sidebar-content">
+
+                            <!-- Main navigation -->
+                            <div class="sidebar-category sidebar-category-visible">
+                                <div class="sidebar-user-material">
+                                    <div class="category-content">
+                                        <div class="sidebar-user-material-content">
+                                            <a href="#">
+                                                <img src="../assets/images/profile_pic.png" class="img-circle img-responsive" alt="">
+                                            </a>
+                                            <h6>Victoria Baker</h6>
+                                            <span class="text-size-small">Santa Ana, CA</span>
+                                        </div>
+        
+                                        <div class="sidebar-user-material-menu mobile_hide">
+                                            <a href="#user-nav" data-toggle="collapse">
+                                                <span>My account</span>
+                                                <i class="caret"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+        
+                                    <div class="navigation-wrapper collapse" id="user-nav">
+                                        <ul class="navigation">
+                                            <li class="mobile_hide">
+                                                <a href="profile_detail.html">
+                                                    <i class="icon-user-plus"></i>
+                                                    <span>My profile</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="icon-coins"></i>
+                                                    <span>My products</span>
+                                                </a>
+                                            </li>
+                                            <li class="mobile_hide">
+                                                <a href="#">
+                                                    <i class="icon-comment-discussion"></i>
+                                                    <span>
+                                                        <span class="badge bg-teal-400 pull-right">58</span> Messages</span>
+                                                </a>
+                                            </li>
+                                            <li class="divider"></li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="icon-cog5"></i>
+                                                    <span>Obsolete</span>
+                                                </a>
+                                            </li>
+                                            <li class="mobile_hide">
+                                                <a href="#">
+                                                    <i class="icon-switch2"></i>
+                                                    <span>Logout</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+        
+                                <div class="category-content no-padding">
+                                    <ul class="navigation navigation-main navigation-accordion">
+        
+                                        <!-- Main -->
+                                        <li class="navigation-header">
+                                            <span>Main</span>
+                                            <i class="icon-menu" title="Main pages"></i>
+                                        </li>
+                                        <li>
+                                            <a href="dashboard.html">
+                                                <i class="icon-home4"></i>
+                                                <span>Dashboard</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="all_appointments.html">
+                                                <i class="icon-stack-empty"></i>
+                                                <span>List of Appointments</span>
+                                            </a>
+                                        </li>
+                                        <li class="mobile_show mobile_profile">
+                                            <a href="profile_detail.html" class="legitRipple">
+                                            <i class="icon-user-plus"></i>
+                                            <span>My profile</span>
+                                            </a>
+                                            </li>
+                                        
+                                        <li>
+                                            <a href="selectteacher.html">
+                                                <i class="icon-user-plus"></i>
+                                                <span>Easy Cloud</span>
+                                            </a>
+                                        </li>                                      
+                                        <!-- <li class="mobile_show">
+                                            <a href="#">
+                                                <i class="icon-comment-discussion"></i>
+                                                <span>
+                                                    <span class="badge bg-teal-400 pull-right">58</span> Messages</span>
+                                            </a>
+                                        </li> -->
+                                        <li>
+                                            <a href="listofstudent.html">
+                                                <i class="icon-users2"></i>
+                                                <span>List of My Students</span>
+                                            </a>
+                                        </li>                                       
+                                        <li class="mobile_show mobile_logout">
+                                            <a href="#">
+                                                <i class="icon-switch2"></i>
+                                                <span>Logout</span>
+                                            </a>
+                                        </li>
+                                        <!-- /page kits -->
+        
+                                    </ul>
+        
+                                </div>
+                            </div>
+                            <!-- /main navigation -->
+        
+                        </div>
+            </div>
+            <!-- /main sidebar -->
+
+
+            <!-- Main content -->
+            <div class="content-wrapper messageread">
+                <div class="panel panel-white">
+
+                    <!-- Mail toolbar -->
+                    <div class="panel-toolbar panel-toolbar-inbox">
+                        <div class="navbar navbar-default">
+                            <ul class="nav navbar-nav visible-xs-block no-border">
+                                <li>
+                                    <a class="text-center collapsed" data-toggle="collapse" data-target="#inbox-toolbar-toggle-single">
+                                        <i class="icon-circle-down2"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="navbar-collapse collapse" id="inbox-toolbar-toggle-single">
+                                <div class="btn-group navbar-btn">
+
+                                    <!-- <a href="mail_write.html" class="btn btn-default"><i class="icon-reply-all"></i> <span class="hidden-xs position-right">Reply to all</span></a> -->
+                                    <a href="message.html" class="btn btn-default">
+                                        <i class="icon-forward"></i>
+                                        <span class="hidden-xs position-right">Forward</span>
+                                    </a>
+                                    <a href="#" class="btn btn-default">
+                                        <i class="icon-bin"></i>
+                                        <span class="hidden-xs position-right">Delete</span>
+                                    </a>
+
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                            <i class="icon-menu7"></i>
+                                            <span class="caret"></span>
+                                        </button>
+
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li>
+                                                <a href="#">Action</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Another action</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Something else here</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">One more line</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="pull-right-lg">
+                                    <p class="navbar-text">12:49 pm</p>
+                                    <!-- <div class="btn-group navbar-btn">
+                                                <a href="#" class="btn btn-default"><i class="icon-printer"></i> <span class="hidden-xs position-right">Print</span></a>
+                                                <a href="#" class="btn btn-default"><i class="icon-new-tab2"></i> <span class="hidden-xs position-right">Share</span></a>
+                                            </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /mail toolbar -->
+
+
+                    <!-- Mail details -->
+                    <div class="media stack-media-on-mobile mail-details-read">
+                        <a href="#" class="media-left">
+                            <img class="img-circle img-md" src="../assets/images/teacherInfo.png" />
+                        </a>
+
+                        <div class="media-body">
+                            <h6 class="media-heading">New Imperatives for Enterprise Mobility</h6>
+                            <div class="letter-icon-title text-semibold">Amanda Smith
+                                <a href="#">&lt;jira@diakultd.atlassian.net&gt;</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /mail details -->
+
+
+                    <!-- Mail container -->
+                    <div class="mail-container-read">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et eleifend nisi, nec dignissim lorem. Mauris sit amet est
+                            vehicula, rhoncus diam in, fermentum tortor. Nulla a ullamcorper purus, ut placerat enim. Nullam
+                            quis luctus dui. Quisque viverra, ligula a eleifend pharetra, magna urna posuere ligula, in lobortis
+                            ipsum erat vitae quam. Cras tempor sem vel sem sagittis sodales. Maecenas ullamcorper pellentesque
+                            ipsum, nec tempus sem scelerisque a. Nullam non tincidunt risus. Integer vehicula odio eget gravida
+                            rhoncus. Vestibulum sit amet mauris a velit ullamcorper rutrum at et purus. Aliquam tristique
+                            pharetra convallis. Aenean nec porta erat, a tempus leo. Duis ac porttitor urna, nec blandit
+                            felis. Vestibulum euismod est a rhoncus tempor. Sed mattis mi sit amet dolor ullamcorper, non
+                            efficitur nisl fermentum. Donec sodales gravida justo, vel finibus arcu accumsan eget. Aliquam
+                            erat volutpat. Nullam egestas tincidunt nisl, vel elementum sapien maximus ac. Curabitur pharetra
+                            orci ac dictum feugiat. Nunc ultrices sapien leo, quis congue diam tincidunt a. Sed pharetra
+                            eget quam ut suscipit.
+                        </p>
+                    </div>
+                    <!-- /mail container -->
+
+
+                    <!-- Attachments -->
+                    <div class="mail-attachments-container">
+                        <h6 class="mail-attachments-heading">2 Attachments</h6>
+
+                        <ul class="mail-attachments">
+                            <li>
+                                <span class="mail-attachments-preview">
+                                    <i class="icon-file-pdf icon-2x"></i>
+                                </span>
+
+                                <div class="mail-attachments-content">
+                                    <span class="text-semibold">new_december_offers.pdf</span>
+
+                                    <ul class="list-inline list-inline-condensed no-margin">
+                                        <li class="text-muted">174 KB</li>
+                                        <li>
+                                            <a href="#">View</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Download</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span class="mail-attachments-preview">
+                                    <i class="icon-file-pdf icon-2x"></i>
+                                </span>
+
+                                <div class="mail-attachments-content">
+                                    <span class="text-semibold">assignment_letter.pdf</span>
+
+                                    <ul class="list-inline list-inline-condensed no-margin">
+                                        <li class="text-muted">736 KB</li>
+                                        <li>
+                                            <a href="#">View</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Download</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /attachments -->
+
+                </div>
+
+            </div>
+            <!-- /main content -->
+
+        </div>
+        <!-- /page content -->
+
+    </div>
+    <!-- /page container -->
+
+
+    <!-- Footer -->
+    <div class="navbar navbar-default navbar-fixed-bottom footer">
+        <ul class="nav navbar-nav visible-xs-block">
+            <li>
+                <a class="text-center collapsed" data-toggle="collapse" data-target="#footer">
+                    <i class="icon-circle-up2"></i>
+                </a>
+            </li>
+        </ul>
+
+        <div class="navbar-collapse collapse" id="footer">
+            <div class="navbar-text">
+                &copy; 2016-2017 -
+                <a href="index.html" class="navbar-link">Easy-Tutor</a>
+            </div>
+
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /footer -->
+
+</body>
+
+</html>
